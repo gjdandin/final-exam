@@ -1,4 +1,5 @@
 # final-exam
+Design: We can reuse the design of pancake house (if appropriate), but different colors, font etc. to make it a little bit different.
 
 1. (Ahmed) Welcome! (index.html): this page should be a general information page  that helps the visitor understand what this site is, and navigate to the  other pages. May be short and simple. Common theme for site: Being a  first-year student (at OsloMet). 
 
