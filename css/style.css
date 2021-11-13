@@ -1,0 +1,65 @@
+/* Gilhan's suggestion to body/font css - you can change it at will*/
+body {
+    line-height: 1.444;
+    -webkit-font-smoothing: antialiased;
+    font-size:18px;
+    font-stretch: 100%;
+    color:#3e3e3e;
+    background:#fff;
+    font-family: Geomanist,Helvetica,sans-serif;
+}
+
+
+/* Reflection page */
+.reflection-header {
+    margin-top: 2rem;
+    display:flex;
+    justify-content: center;
+}
+.reflection-main {
+    display:flex;
+    justify-content: center;
+    vertical-align: baseline;
+}
+.reflection-article {
+    width:800px;
+    margin-bottom:5rem;
+}
+.reflection-article hr {
+    margin:60px 0;
+}
+.article-div p {
+    line-height: 2.1;
+}
+.article-div {
+    margin-bottom:3rem;
+}
+
+/* Responsive css */
+@media only screen and (max-width:414px) {
+    .reflection-article {
+        width:100%;
+        padding:0 25px;
+    }
+    .article-div picture img {
+        width:90vw;
+    }
+    .reflection-header h1 {
+        font-size:x-large;
+    }
+    .article-div picture {
+        display:flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width:414px) and (max-width:768px) {
+    .article-div {
+        margin:20px;
+    }
+    .article-div picture {
+        display:flex;
+        justify-content: center;
+    }
+}
+/* End Responsive css */
+/* End Reflection page */
