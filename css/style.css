@@ -10,29 +10,36 @@ body {
 }
 
 
-/* Reflection page */
-.reflection-header {
+/* Reflection page */ /*<-- change to generic settings?*/
+
+.reflection-header, .Topical-information-header{
     margin-top: 2rem;
     display:flex;
     justify-content: center;
 }
-.reflection-main {
+.reflection-main, .Topical-information-main {
     display:flex;
     justify-content: center;
     vertical-align: baseline;
 }
-.reflection-article {
+.reflection-article, .Topical-information-article {
     width:800px;
     margin-bottom:5rem;
 }
-.reflection-article hr {
+.reflection-article hr, .Topical-information-article hr{
     margin:60px 0;
 }
-.article-div p {
+.article-div p{
     line-height: 2.1;
 }
 .article-div {
     margin-bottom:3rem;
+}
+
+/*Topical-information*/
+
+.Topical-information-article > .article-div > .sources-div >h2 {
+    text-decoration: underline;
 }
 
 /* Responsive css */
