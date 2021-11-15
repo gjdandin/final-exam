@@ -13,9 +13,8 @@
 * Sirin Koca | s182211
 
 ## Overview: 
-* Link to Oblig2 on Canvas - assignment description: 
-* Files on Canvas:
-* Repo link on GitHub: 
+* Link to FINAL on Canvas - assignment description: 
+* Repo on GitHub: 
 * Public URL-adress: 
 * Readme.md: 
 
