@@ -12,7 +12,6 @@ body {
     top: 0;
     left: 0;
     background-color: #111;
-    color: #D9B01C;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -28,7 +27,7 @@ body {
   }
   
   .sidenav a:hover {
-    color: #f1f1f1;
+    color: #D9B01C;;
   }
   
   .sidenav .closebtn {
@@ -49,7 +48,7 @@ body {
     .sidenav a {font-size: 18px;}
   }
 
-  /* end CSS code from W3S - off-canvas menu*/
+/* end CSS code from W3S - off-canvas menu*/
 
   
 
