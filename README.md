@@ -35,9 +35,9 @@
 - We shall create an impressive entrace to the site , easy and userfriendly
 - Accessibility page is perhaps the most important one by content, it should be excellent!
 ## To-do:
-*1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
-*2- Implementation:
-*3- Testing and validation: accessibility...
+* 1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
+* 2- Implementation:
+* 3- Testing and validation: accessibility...
 
 ## PAGES: 
 * __(Ahmet) Welcome! (index.html)__: this page should be a general information page  that helps the visitor understand what this site is, and navigate to the  other pages. May be short and simple. Common theme for site: Being a  first-year student (at OsloMet). 
