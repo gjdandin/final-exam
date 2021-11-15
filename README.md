@@ -1,10 +1,36 @@
 ## 🖥️ DATA1200 | Web development and inclusive design 
-## 🖥️ Duedate: Innleveringsfrist:26.11.2021 kl 12:00
-## 🖥️ Delivery checkpoint:
+## 🖥️ Deadline: Innleveringsfrist: 26.11.2021 kl 12:00
+## 🖥️ Delivery checkpoints:
 *
 *
 *
-***
+
+## G33 - team members: 
+* Gilhan Jentrix M. Dandin | s360903
+* Ahmet Okur | s364568
+* Bhiravina Mahesaratnam | s334895
+* Johan Tryti | s362059
+* Sirin Koca | s182211
+
+## Overview: 
+* Link to Oblig2 on Canvas - assignment description: 
+* Files on Canvas:
+* Repo link on GitHub: 
+* Public URL-adress: 
+* Readme.md: 
+
+### Useful links:
+* Accessibility W3: https://www.w3.org/standards/webdesign/accessibility
+* Google accessibility: https://www.google.com/accessibility/
+* Mozilla: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
+* Web accessibility tutorials (W3C): https://www.w3.org/WAI/tutorials/page-structure/
+* How to Meet WCAG: https://www.w3.org/WAI/WCAG21/quickref/
+* Inproving readability for texts: https://hemingwayapp.com/
+* The beginner’s guide to SEO (Moz): https://moz.com/beginners-guide-to-seo 
+* https://css-tricks.com/
+* NavBar: https://www.w3schools.com/howto/howto_js_off-canvas.asp
+
+## Project Stages: 
 1- Brainstorming | ideate, thoughts and suggestions:
 * Design and graphic profile: 
 - We may reuse the design of pancake house (if appropriate), but different colors, font etc. to make it a little bit different.
@@ -12,6 +38,21 @@
 - We shall create proper text and content for every page as much as we can.
 - We shall create an impressive entrace to the site , easy and userfriendly
 - Accessibility page is perhaps the most important one by content, it should be excellent!
+
+2- Tasks - to-do:
+- dasas
+- sdasd
+- asdasd
+- sd
+
+3- Implementation:
+-das
+-dsaa
+
+4- Testing design:
+5- Validation:
+- Results:
+
 
 ## PAGES: 
 
