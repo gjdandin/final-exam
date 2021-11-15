@@ -1,6 +1,6 @@
-## DATA1200 | Web development and inclusive design 
-## Duedate: Innleveringsfrist:26.11.2021 kl 12:00
-## Delivery checkpoint:
+## 🖥️ DATA1200 | Web development and inclusive design 
+## 🖥️ Duedate: Innleveringsfrist:26.11.2021 kl 12:00
+## 🖥️ Delivery checkpoint:
 *
 *
 *
