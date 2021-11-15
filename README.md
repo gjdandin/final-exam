@@ -12,8 +12,8 @@
 * Sirin Koca | s182211
 
 ## Overview: 
-* Link to FINAL on Canvas - assignment description: 
-* Repo on GitHub: 
+* Link to FINAL on Canvas - assignment description: https://oslomet.instructure.com/courses/22306/discussion_topics/186375
+* Repo on GitHub: https://github.com/gjdandin/final-exam
 * Public URL-adress: 
 * Readme.md: 
 
