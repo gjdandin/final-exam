@@ -1,15 +1,15 @@
 ## ◕ DATA1200 | Web development and inclusive design 
 ## ◕ FINAL PROJECT | Deadline: 26.11.2021 kl 12:00
-## ◕ Delivery checkpoints:
-* 1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
-* 2- Implementation:
-* 3- Testing and validation: accessibility...
-## G33 - team members: 
+## ◕ G33 - team members: 
 * Ahmet Okur | s364568
 * Bhiravina Mahesaratnam | s334895
 * Gilhan Jentrix M. Dandin | s360903
 * Johan Tryti | s362059
 * Sirin Koca | s182211
+## Delivery checkpoints:
+* 1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
+* 2- Implementation:
+* 3- Testing and validation: accessibility...
 ## Overview: 
 * Link to FINAL on Canvas - assignment description: https://oslomet.instructure.com/courses/22306/discussion_topics/186375
 * Repo on GitHub: https://github.com/gjdandin/final-exam
