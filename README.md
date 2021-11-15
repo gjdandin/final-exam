@@ -4,20 +4,17 @@
 * 1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
 * 2- Implementation:
 * 3- Testing and validation: accessibility...
-*
 ## G33 - team members: 
 * Ahmet Okur | s364568
 * Bhiravina Mahesaratnam | s334895
 * Gilhan Jentrix M. Dandin | s360903
 * Johan Tryti | s362059
 * Sirin Koca | s182211
-
 ## Overview: 
 * Link to FINAL on Canvas - assignment description: https://oslomet.instructure.com/courses/22306/discussion_topics/186375
 * Repo on GitHub: https://github.com/gjdandin/final-exam
 * Public URL-adress: 
 * Readme.md: 
-
 ### Useful links:
 * Accessibility W3: https://www.w3.org/standards/webdesign/accessibility
 * Google accessibility: https://www.google.com/accessibility/
@@ -29,14 +26,12 @@
 * CSS: https://css-tricks.com/
 * CSS NavBar: https://www.w3schools.com/howto/howto_js_off-canvas.asp
 * Our colours: https://www.schemecolor.com/new-year-black-and-gold-colors.php
-
 ## Brainstorming, ideate, thoughts:
 - We may reuse the design of pancake house (if appropriate), but different colors, font etc. to make it a little bit different.
 - We may create somethig with OsloMet colour scheme = yellow + black + white + some other strong colours such as dodger blue, tomato, magenta etc.
 - We shall create proper text and content for every page as much as we can.
 - We shall create an impressive entrace to the site , easy and userfriendly
 - Accessibility page is perhaps the most important one by content, it should be excellent!
-
 ## PAGES: 
 * __(Ahmet) Welcome! (index.html)__: this page should be a general information page  that helps the visitor understand what this site is, and navigate to the  other pages. May be short and simple. Common theme for site: Being a  first-year student (at OsloMet). 
 
