@@ -28,7 +28,7 @@
 - We shall create proper text and content for every page as much as we can.
 - We shall create an impressive entrace to the site , easy and userfriendly
 - Accessibility page is perhaps the most important one by content, it should be excellent!
-## PAGES: 
+## ◕ PAGES: 
 * __(Ahmet) Welcome! (index.html)__: this page should be a general information page  that helps the visitor understand what this site is, and navigate to the  other pages. May be short and simple. Common theme for site: Being a  first-year student (at OsloMet). 
 
 * __(Gilhan) Reflection-essay__: This page must contain a short text (500-700 words) describing the challenges experienced by the (one, several or all)  members of the group when transitioning from upper-secondary school  (or work-life) to university. Reflect on any of the following topics: a) learning to code, or 
