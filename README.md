@@ -27,6 +27,7 @@
 * The beginner’s guide to SEO (Moz): https://moz.com/beginners-guide-to-seo 
 * https://css-tricks.com/
 * NavBar: https://www.w3schools.com/howto/howto_js_off-canvas.asp
+* Our colours: https://www.schemecolor.com/new-year-black-and-gold-colors.php
 
 ## Brainstorming, ideate, thoughts:
 - We may reuse the design of pancake house (if appropriate), but different colors, font etc. to make it a little bit different.
