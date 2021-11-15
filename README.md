@@ -6,12 +6,12 @@
 * Gilhan Jentrix M. Dandin | s360903
 * Johan Tryti | s362059
 * Sirin Koca | s182211
-## Overview: 
+## ◕ Overview: 
 * Link to FINAL on Canvas - assignment description: https://oslomet.instructure.com/courses/22306/discussion_topics/186375
 * Repo on GitHub: https://github.com/gjdandin/final-exam
 * Public URL-adress: 
 * Readme.md: 
-### Useful links:
+## ◕ Useful links:
 * Accessibility W3: https://www.w3.org/standards/webdesign/accessibility
 * Google accessibility: https://www.google.com/accessibility/
 * Mozilla: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
