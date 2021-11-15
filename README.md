@@ -1,5 +1,5 @@
 ## ◕ DATA1200 | Web development and inclusive design 
-## ◕ Deadline: 26.11.2021 kl 12:00
+## ◕ FINAL PROJECT | Deadline: 26.11.2021 kl 12:00
 ## ◕ Delivery checkpoints:
 * 1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
 * 2- Implementation:
