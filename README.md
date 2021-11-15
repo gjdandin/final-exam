@@ -29,16 +29,15 @@
 * NavBar: https://www.w3schools.com/howto/howto_js_off-canvas.asp
 
 ## Brainstorming, ideate, thoughts:
-1- Design and graphic profile: 
 - We may reuse the design of pancake house (if appropriate), but different colors, font etc. to make it a little bit different.
 - We may create somethig with OsloMet colour scheme = yellow + black + white + some other strong colours such as dodger blue, tomato, magenta etc.
 - We shall create proper text and content for every page as much as we can.
 - We shall create an impressive entrace to the site , easy and userfriendly
 - Accessibility page is perhaps the most important one by content, it should be excellent!
-2- Tasks - to-do:
-3- Implementation:
-4- Testing and validation:
-- Results:
+## To-do:
+1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
+2- Implementation:
+3- Testing and validation: accessibility...
 
 ## PAGES: 
 * __(Ahmet) Welcome! (index.html)__: this page should be a general information page  that helps the visitor understand what this site is, and navigate to the  other pages. May be short and simple. Common theme for site: Being a  first-year student (at OsloMet). 
@@ -53,7 +52,7 @@ Please illustrate with screenshots of code or illustrating images if you  can. E
 * __(Johan) Topical information page__: Technology and society (with external links): Write – or re-use a short text you have previously written – (anywhere  from 300 to 1000 words) about technology and society. You are allowed  to reuse text from "DATA1100 Technology and Society for Programmers"  or other subjects. This text should have multiple links to external sites  with relevant information. We shall not grade you on how relevant the  information you link to is, but we expect several links and we expect it to  be easy to understand before clicking what information you lead us to. 
 
 * __(Bhira) Fun page__: Make one page that is in a different layout and have a  different styling than the others. Put in some text and images. We accept  place-holder text, but don’t use copyrighted images. Or you can present  an activity or a place in Oslo. This page is an opportunity to be creative  and shine. You may embed video or sound, but again: beware of  copyright, please! Don’t forget to consider the size of the media files  (videos or pictures). 
-
+***
 ## How we shall grade these final assignments (from the assignment text):
 • __Structure and navigation, wide screen and small screens__: Are the pages  well structured (with headings, paragraphs, images) and is it easy to  navigate between the pages? We shall check this on different screens. 
 • __Accessibility and legibility__: We shall look both at the automated test and  use our experience to assess how well designed the pages are. (The  «Fun page!» Is not part of "Accessibility"-assessment.) Your description  will assist us in understanding the choices you have made. 
