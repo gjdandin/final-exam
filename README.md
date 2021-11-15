@@ -1,11 +1,6 @@
 ## ◕ DATA1200 | Web development and inclusive design 
 ## ◕ FINAL PROJECT | Deadline: 26.11.2021 kl 12:00
 ## ◕ G33 - team members: 
-## ◕ Overview: 
-## ◕ Useful links:
-## ◕ Brainstorming, ideate, thoughts:
-
-## ◕ G33 - team members: 
 * Ahmet Okur | s364568
 * Bhiravina Mahesaratnam | s334895
 * Gilhan Jentrix M. Dandin | s360903
