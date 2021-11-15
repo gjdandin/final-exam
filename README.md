@@ -1,14 +1,14 @@
 ## 🖥️ DATA1200 | Web development and inclusive design 
 ## 🖥️ Deadline: Innleveringsfrist: 26.11.2021 kl 12:00
-## 🖥️ Delivery checkpoints:
+## 💾 Delivery checkpoints:
 *
 *
 *
 
 ## G33 - team members: 
-* Gilhan Jentrix M. Dandin | s360903
 * Ahmet Okur | s364568
 * Bhiravina Mahesaratnam | s334895
+* Gilhan Jentrix M. Dandin | s360903
 * Johan Tryti | s362059
 * Sirin Koca | s182211
 
