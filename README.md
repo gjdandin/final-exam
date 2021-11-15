@@ -6,10 +6,6 @@
 * Gilhan Jentrix M. Dandin | s360903
 * Johan Tryti | s362059
 * Sirin Koca | s182211
-## Delivery checkpoints:
-* 1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
-* 2- Implementation:
-* 3- Testing and validation: accessibility...
 ## Overview: 
 * Link to FINAL on Canvas - assignment description: https://oslomet.instructure.com/courses/22306/discussion_topics/186375
 * Repo on GitHub: https://github.com/gjdandin/final-exam
@@ -46,6 +42,10 @@ Please illustrate with screenshots of code or illustrating images if you  can. E
 
 * __(Bhira) Fun page__: Make one page that is in a different layout and have a  different styling than the others. Put in some text and images. We accept  place-holder text, but don’t use copyrighted images. Or you can present  an activity or a place in Oslo. This page is an opportunity to be creative  and shine. You may embed video or sound, but again: beware of  copyright, please! Don’t forget to consider the size of the media files  (videos or pictures). 
 ***
+## Delivery checkpoints:
+* 1- Design&create mock-ups: the website shall have a holistic (complete website) feel and look.
+* 2- Implementation:
+* 3- Testing and validation: accessibility...
 ## How we shall grade these final assignments (from the assignment text):
 * __Structure and navigation, wide screen and small screens__: Are the pages  well structured (with headings, paragraphs, images) and is it easy to  navigate between the pages? We shall check this on different screens. 
 * __Accessibility and legibility__: We shall look both at the automated test and  use our experience to assess how well designed the pages are. (The  «Fun page!» Is not part of "Accessibility"-assessment.) Your description  will assist us in understanding the choices you have made. 
