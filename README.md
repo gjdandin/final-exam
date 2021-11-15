@@ -29,19 +29,14 @@
 * NavBar: https://www.w3schools.com/howto/howto_js_off-canvas.asp
 
 ## Brainstorming, ideate, thoughts:
-* Design and graphic profile: 
+1- Design and graphic profile: 
 - We may reuse the design of pancake house (if appropriate), but different colors, font etc. to make it a little bit different.
 - We may create somethig with OsloMet colour scheme = yellow + black + white + some other strong colours such as dodger blue, tomato, magenta etc.
 - We shall create proper text and content for every page as much as we can.
 - We shall create an impressive entrace to the site , easy and userfriendly
 - Accessibility page is perhaps the most important one by content, it should be excellent!
-
 2- Tasks - to-do:
-- aaa
-- bbb
 3- Implementation:
-- aaa
-- bbb
 4- Testing and validation:
 - Results:
 
@@ -59,17 +54,12 @@ Please illustrate with screenshots of code or illustrating images if you  can. E
 
 * __(Bhira) Fun page__: Make one page that is in a different layout and have a  different styling than the others. Put in some text and images. We accept  place-holder text, but don’t use copyrighted images. Or you can present  an activity or a place in Oslo. This page is an opportunity to be creative  and shine. You may embed video or sound, but again: beware of  copyright, please! Don’t forget to consider the size of the media files  (videos or pictures). 
 
-## From the assignment text:
-How we shall grade these final assignments 
+## How we shall grade these final assignments (from the assignment text):
 • __Structure and navigation, wide screen and small screens__: Are the pages  well structured (with headings, paragraphs, images) and is it easy to  navigate between the pages? We shall check this on different screens. 
-
 • __Accessibility and legibility__: We shall look both at the automated test and  use our experience to assess how well designed the pages are. (The  «Fun page!» Is not part of "Accessibility"-assessment.) Your description  will assist us in understanding the choices you have made. 
-
 • __Ease of maintenance__: Is the code easy to maintain for a new developer?  Can someone else take over your work and modify, change, and further  develop this site using their IDE of choice (rather than the one you  used)? We shall look at the code itself. Is it well-structured and easy to  read? Are you following conventions for comments? Is the CSS well  organised with each element styled only once (if possible)? Is the  structural code (like boxes) separate from code that define the visuals?  Et cetera. 
-
-• __The text "Short presentation of accessibility". Have you done an automated test? Were you able to comprehend the results? Have you  reflected on accessibility beyond automated tests? And does the entire  site appear coherent, as a site of pages, rather than fragmented texts  without a common theme?__
-
-• We accept reuse of code from you obligatory assignments. 
+• __The text "Short presentation of accessibility". Have you done an automated test? Were you able to comprehend the results? Have you  reflected on accessibility beyond automated tests? And does the entire  site appear coherent, as a site of pages, rather than fragmented texts  without a common theme?
+• We accept reuse of code from you obligatory assignments. __
 
 ***
 
