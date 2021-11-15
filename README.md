@@ -1,5 +1,5 @@
 ## ◕ DATA1200 | Web development and inclusive design 
-## ◕ Deadline: Innleveringsfrist: 26.11.2021 kl 12:00
+## ◕ Deadline: 26.11.2021 kl 12:00
 ## ◕ Delivery checkpoints:
 - aaa
 - bbb
