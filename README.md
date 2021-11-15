@@ -12,7 +12,6 @@
 - We shall create proper text and content for every page as much as we can.
 - We shall create an impressive entrace to the site , easy and userfriendly
 - Accessibility page is perhaps the most important one by content, it should be excellent!
-***
 
 ## PAGES: 
 
@@ -42,11 +41,8 @@ How we shall grade these final assignments
 
 ***
 
-***
-
 
 ### Thank you! 
-
 
 
 © 2021 Team G33 - Data1200 - OsloMet
