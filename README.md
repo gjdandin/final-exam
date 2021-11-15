@@ -26,8 +26,8 @@
 * How to Meet WCAG: https://www.w3.org/WAI/WCAG21/quickref/
 * Inproving readability for texts: https://hemingwayapp.com/
 * The beginner’s guide to SEO (Moz): https://moz.com/beginners-guide-to-seo 
-* https://css-tricks.com/
-* NavBar: https://www.w3schools.com/howto/howto_js_off-canvas.asp
+* CSS: https://css-tricks.com/
+* CSS NavBar: https://www.w3schools.com/howto/howto_js_off-canvas.asp
 * Our colours: https://www.schemecolor.com/new-year-black-and-gold-colors.php
 
 ## Brainstorming, ideate, thoughts:
