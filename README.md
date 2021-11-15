@@ -54,9 +54,9 @@
 
 ## PAGES: 
 
-* 1. (Ahmed) Welcome! (index.html): this page should be a general information page  that helps the visitor understand what this site is, and navigate to the  other pages. May be short and simple. Common theme for site: Being a  first-year student (at OsloMet). 
+* 1. __(Ahmet) Welcome! (index.html)__: this page should be a general information page  that helps the visitor understand what this site is, and navigate to the  other pages. May be short and simple. Common theme for site: Being a  first-year student (at OsloMet). 
 
-* 2. (Gilhan) Reflection-essay: This page must contain a short text (500-700 words) describing the challenges experienced by the (one, several or all)  members of the group when transitioning from upper-secondary school  (or work-life) to university. Reflect on any of the following topics: a) learning to code, or 
+* 2. __(Gilhan) Reflection-essay__: This page must contain a short text (500-700 words) describing the challenges experienced by the (one, several or all)  members of the group when transitioning from upper-secondary school  (or work-life) to university. Reflect on any of the following topics: a) learning to code, or 
 b) being a student rather than a pupil, or 
 c) managing the workload. 
 Please illustrate with screenshots of code or illustrating images if you  can. Else, we recommend using images of OsloMet to create a mix of  headings, paragraphs, and images for this page. We shall not assess the  language/grammar of the paragraphs. We expect headings, text and  images that relate to each other (content). Headings should be  informative and grammatically correct (proper visual hierarchy). 
