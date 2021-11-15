@@ -1,8 +1,20 @@
 ## DATA1200 | Web development and inclusive design 
-# Duedate: Innleveringsfrist:26.11.2021 kl 12:00
+## Duedate: Innleveringsfrist:26.11.2021 kl 12:00
+## Delivery checkpoint:
+*
+*
+*
+***
+1- Brainstorming | ideate, thoughts and suggestions:
+* Design and graphic profile: 
+- We may reuse the design of pancake house (if appropriate), but different colors, font etc. to make it a little bit different.
+- We may create somethig with OsloMet colour scheme = yellow + black + white + some other strong colours such as dodger blue, tomato, magenta etc.
+- We shall create proper text and content for every page as much as we can.
+- We shall create an impressive entrace to the site , easy and userfriendly
+- Accessibility page is perhaps the most important one by content, it should be excellent!
+***
 
-Some suggestions
-Design: We can reuse the design of pancake house (if appropriate), but different colors, font etc. to make it a little bit different.
+## PAGES: 
 
 1. (Ahmed) Welcome! (index.html): this page should be a general information page  that helps the visitor understand what this site is, and navigate to the  other pages. May be short and simple. Common theme for site: Being a  first-year student (at OsloMet). 
 
@@ -17,7 +29,7 @@ Please illustrate with screenshots of code or illustrating images if you  can. E
 
 5. (Bhira) Fun page: Make one page that is in a different layout and have a  different styling than the others. Put in some text and images. We accept  place-holder text, but don’t use copyrighted images. Or you can present  an activity or a place in Oslo. This page is an opportunity to be creative  and shine. You may embed video or sound, but again: beware of  copyright, please! Don’t forget to consider the size of the media files  (videos or pictures). 
 
-
+## From the assignment text:
 How we shall grade these final assignments 
 • Structure and navigation, wide screen and small screens: Are the pages  well structured (with headings, paragraphs, images) and is it easy to  navigate between the pages? We shall check this on different screens. 
 
@@ -27,3 +39,15 @@ How we shall grade these final assignments
 
 • The text "Short presentation of accessibility". Have you done an  automated test? Were you able to comprehend the results? Have you  reflected on accessibility beyond automated tests? And does the entire  site appear coherent, as a site of pages, rather than fragmented texts  without a common theme? 
 • We accept reuse of code from you obligatory assignments. 
+
+***
+
+***
+
+
+### Thank you! 
+
+
+
+© 2021 Team G33 - Data1200 - OsloMet
+
