@@ -17,7 +17,7 @@
 * Mozilla: https://developer.mozilla.org/en-US/docs/Learn/Accessibility/What_is_accessibility
 * Web accessibility tutorials (W3C): https://www.w3.org/WAI/tutorials/page-structure/
 * How to Meet WCAG: https://www.w3.org/WAI/WCAG21/quickref/
-* Inproving readability for texts: https://hemingwayapp.com/
+* Improving readability for texts: https://hemingwayapp.com/
 * The beginner’s guide to SEO (Moz): https://moz.com/beginners-guide-to-seo 
 * CSS: https://css-tricks.com/
 * CSS NavBar: https://www.w3schools.com/howto/howto_js_off-canvas.asp
