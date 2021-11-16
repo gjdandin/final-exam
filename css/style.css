@@ -50,7 +50,18 @@ body {
 
 /* end CSS code from W3S - off-canvas menu*/
 
-  
+/* Sirin - Footer start*/
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #D9B01C;
+    color: #333;
+    text-align: center;
+ }
+/* Sirin - Footer end*/
+
 
 /* Gilhan's suggestion to body/font css - you can change it at will*/
 body {
