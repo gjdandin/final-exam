@@ -53,15 +53,6 @@
     padding: 16px;
   }
   
-  @media screen and (max-height: 450px) and (max-width:414px) {
-    .sidenav {
-        padding-top: 10px;
-        font-size: 12px;
-        width: 200px;
-    }
-    .sidenav a {font-size: 12px;}
-  }
-
 /* end CSS code from W3S - off-canvas menu*/
 
 /* Sirin - Footer start*/
@@ -80,7 +71,6 @@
     vertical-align: bottom;
 }
 /* Sirin - Footer end*/
-
 
 /* Generic settings for CSS */ 
 
@@ -117,6 +107,18 @@
 }
 
 /* Responsive css */
+@media screen and (max-height: 450px) and (max-width:414px) {
+    .sidenav {
+        padding-top: 10px;
+        font-size: 12px;
+        width: 200px;
+    }
+    .sidenav a {font-size: 12px;}
+ 
+    .footer {font-size: 12px;}
+
+}
+
 @media only screen and (max-width:414px) {
     .reflection-article .topical-main .topical-article .sources-div {
         width: 100%;
