@@ -126,16 +126,18 @@ img {
 
 @media only screen and (max-width:414px) {
     .reflection-article, .topical-main, .topical-article, .sources-div {
-        width: 100%;
         padding:0 25px;
-        float: none;    
+        font-size: 16px;
+        float: none; 
+        width: 100%;  
     }
     .article-div picture img {
         width:90vw;
     }
     .topical-main, .topical-article, .sources-div{
-        font-size: 12px;
-        display:flex;
+        font-size: 16px;
+        float: none; 
+        width: 100%;
     }
     .reflection-header h1 {
         font-size:x-large;
