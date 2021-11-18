@@ -117,12 +117,17 @@
 
 /* Responsive css */
 @media only screen and (max-width:414px) {
-    .reflection-article, .topical-main, .topical-article, .sources-div {
+    .reflection-article .topical-main .topical-article .sources-div {
         width: 100%;
         padding:0 25px;
+        display:flex;
     }
     .article-div picture img {
         width:90vw;
+    }
+    .topical-main .topical-article .sources-div{
+        font-size: 12px;
+        display:flex;
     }
     .reflection-header h1 {
         font-size:x-large;
