@@ -124,6 +124,20 @@ img {
 
 }
 
+@media screen and (max-width: 768px) {
+    .sidenav a {
+        display: flex;
+        justify-content: center;
+        padding:25px 0px 20px 0px;
+        color: #f3e7e7;
+        font-size: x-large;
+    }
+
+    .sidenav .closebtn {
+        padding:0;
+    }
+}
+
 @media only screen and (max-width:414px) {
         .reflection-article, .topical-article, .sources-div {
         padding:0 25px;
