@@ -57,6 +57,7 @@
     .sidenav {
         padding-top: 10px;
         font-size: 12px;
+        width: 200px;
     }
     .sidenav a {font-size: 12px;}
   }
