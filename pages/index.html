@@ -6,52 +6,78 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="..\css\style.css">
-  <title>Welcome new students at OsloMet!</title>
+  <title>Welcome page</title>
 </head>
 
 <body>
-<div id="mySidenav" class="sidenav">
-  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-  <a href="..\pages\index.html">Welcome</a>
-  <a href="..\pages\reflection.html">Reflection</a>
-  <a href="..\pages\accessibility.html">Accessibility</a>
-  <a href="..\pages\topical.html">Topical</a>
-  <a href="..\pages\fun.html">Fun</a>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="..\pages\index.html">Welcome</a>
+        <a href="..\pages\reflection.html">Reflection</a>
+        <a href="..\pages\accessibility.html">Accessibility</a>
+        <a href="..\pages\topical.html">Topical</a>
+        <a href="..\pages\fun.html">Fun</a>
+    </div>
+
+    <div id="main">
+        <hr size=3, color=black>
+        <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
+        <hr size=3, color=black>
+
+    <header class="index-header"><h1>Being a new student at OsloMet</h1></header>
+    <main class="index-main">
+        <article class="index-article">
+            <div class="article-div">
+              <h4>Maecenas ut risus non neque</h4>
+                  <p>
+                  Maecenas ut risus non neque euismod maximus et sed felis. Donec a urna eu tellus tristique volutpat. Suspendisse nunc risus, fermentum ut mollis at, aliquam nec eros. 
+                  Quisque at consectetur tellus.
+                  </p>
+                  <p>
+                  Donec in magna id risus interdum tempus a in mi. Maecenas viverra rutrum euismod. Aenean et metus leo. Nulla vel hendrerit erat. 
+                  Etiam sed aliquet justo, vel egestas urna. 
+                  </p>
+
+                  <picture>
+                  <source media="(max-width:768px)" srcset="..\img\index-welcome-mock-up.jpg" alt="index-welcome-mock-up picture">
+                  <img src="..\img\index-welcome-mock-up.jpg" alt="index-welcome-mock-up picture">
+                  </picture>
+
+                  <p>
+                  Vestibulum eros leo, sagittis sit amet ultrices non, elementum vel nisi. Vivamus quis eleifend metus. 
+                  Maecenas eget justo sit amet ipsum ornare suscipit ac id eros.
+                  </p>
+            </div>
+
+            <div class="article-div">
+              <h4>Maecenas ut risus non neque</h4>
+                  <p>
+                  Maecenas ut risus non neque euismod maximus et sed felis. Donec a urna eu tellus tristique volutpat. Suspendisse nunc risus, fermentum ut mollis at, aliquam nec eros. 
+                  Quisque at consectetur tellus.
+                  </p>
+            
+            </div>
+
+            <hr>
+            <p>Maecenas ut risus non neque euismod maximus et sed felis. Donec a urna eu tellus tristique.</p>
+        </article>
+    </main>
 </div>
 
-<div id="main">
-    <hr size=3, color=black>
-    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; menu</span>
-    <hr size=3, color=black>
-    <span>
-    <img src="..\img\index-welcome-mock-up.jpg" alt="A handmade mock-up picture to describe the content" style="width: 100%; height: 100%;">
-    </span>
-    <p><strong>This is the main content of the page. Every item has to be placed in this <code> div </code> element so that the off-canvas menu will work.</strong></p>
-    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent molestie velit consequat, pharetra felis quis, ornare odio. Nunc volutpat aliquet tortor ac ultricies. 
-      Vestibulum nulla mauris, sodales eu consequat sed, fermentum vitae justo. Proin luctus porta nunc, a aliquet velit tempus et. Aliquam in mattis ex. 
-      Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. uisque dignissim consectetur tellus ut viverra. Quisque tincidunt elit in condimentum rhoncus. Interdum et malesuada fames ac ante ipsum primis in faucibus.
-    </p> 
-
-    <div id="footer" class="footer">
-      <p>© 2021 Team G33 - Data1200 - OsloMet </p>
-    </div>
- </div>
+<div class="footer">
+<p>© 2021 Team G33 - Data1200 - OsloMet </p>
+</div>
 
 <script>
-  let myTag = document.querySelector("img");
-myTag.onclick = function(){
-  alert("Hi! This is just a mock-up picture! :)")
-};
-
-function openNav() {
-  document.getElementById("mySidenav").style.width = "250px";
-  document.getElementById("main").style.marginLeft = "250px";
-}
-function closeNav() {
-  document.getElementById("mySidenav").style.width = "0";
-  document.getElementById("main").style.marginLeft= "0";
-}
+    function openNav() {
+      document.getElementById("mySidenav").style.width = "250px";
+      document.getElementById("main").style.marginLeft = "250px";
+    }
+    function closeNav() {
+      document.getElementById("mySidenav").style.width = "0";
+      document.getElementById("main").style.marginLeft= "0";
+    }
 </script>
-   
+       
 </body>
 </html> 

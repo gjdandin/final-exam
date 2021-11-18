@@ -4,13 +4,20 @@
 
     body {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    height: 100%;
+    height: auto;
+    width: auto;
+    margin: 0;
     line-height: 1.44;
     -webkit-font-smoothing: antialiased;
     font-size:18px;
     font-stretch: 100%;
     color:#3e3e3e;
     background:#fff;
+}
+
+img {
+    width: 100%;
+    height: 100%;
 }
   
 /* Sirin - CSS code from W3S - off-canvas menu*/  
@@ -58,15 +65,13 @@
 /* Sirin - Footer start*/
 .footer {
     position: relative;
-    left: 0px;
-    right: 0px;
-    bottom: 0px;
+    margin: 0;
     width: 100%;
     height: 40px;
     padding: 10px 0;
     font-size: small;
     background-color: #D9B01C;
-    color: #534205;
+    color: #2b2306;
     text-align: center; 
     vertical-align: bottom;
 }
@@ -74,17 +79,17 @@
 
 /* Generic settings for CSS */ 
 
-.reflection-header, .topical-header {
+.reflection-header, .topical-header, .index-header, .accessibility-header {
     margin-top: 1rem;
     display:flex;
     justify-content: center;
 }
-.reflection-main, .topical-main {
+.reflection-main, .topical-main, .index-main, .accessibility-main {
     display:flex;
     justify-content: center;
     vertical-align: baseline;
 }
-.reflection-article, .topical-article {
+.reflection-article, .topical-article, .index-article, .accessibility-article{
     width:800px;
     margin-bottom:5rem;
     justify-content: center;
@@ -111,7 +116,7 @@
     .sidenav {
         padding-top: 10px;
         font-size: 12px;
-        width: 200px;
+        width: 150px;
     }
     .sidenav a {font-size: 12px;}
  
@@ -120,15 +125,15 @@
 }
 
 @media only screen and (max-width:414px) {
-    .reflection-article .topical-main .topical-article .sources-div {
-        width: 100%;
+    .reflection-article, .topical-main, .topical-article, .sources-div {
+        width: auto;
         padding:0 25px;
         display:flex;
     }
     .article-div picture img {
         width:90vw;
     }
-    .topical-main .topical-article .sources-div{
+    .topical-main, .topical-article, .sources-div{
         font-size: 12px;
         display:flex;
     }
