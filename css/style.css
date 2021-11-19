@@ -83,7 +83,9 @@ img {
     height: 20px;
     background: yellow;
     position: relative;
-    animation: mymove 5s infinite;
+    animation: mymove 10s infinite;
+    font-weight: bold;
+    text-align: center;
   }
   
   .fun2 {
@@ -92,6 +94,8 @@ img {
     background: dodgerblue;
     position: relative;
     animation: mymove 7s infinite;
+    font-weight: bold;
+    text-align: center;
   }
   
   .fun3 {
@@ -99,12 +103,15 @@ img {
     height: 20px;
     background: magenta;
     position: relative;
-    animation: mymove 9s infinite;
+    animation: mymove 5s infinite;
+    font-weight: bold;
+    text-align: center;
   }
   
   @keyframes mymove {
     from {top: 0px;}
     to {top: 500px;}
+
   }
   /* Sirin - the keyframe animation end */
 
