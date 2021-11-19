@@ -77,6 +77,37 @@ img {
 }
 /* Sirin - Footer end*/
 
+/* Sirin - the keyframe animation */
+.fun1 {
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    position: relative;
+    animation: mymove 5s infinite;
+  }
+  
+  .fun2 {
+    width: 20px;
+    height: 20px;
+    background: dodgerblue;
+    position: relative;
+    animation: mymove 7s infinite;
+  }
+  
+  .fun3 {
+    width: 20px;
+    height: 20px;
+    background: magenta;
+    position: relative;
+    animation: mymove 9s infinite;
+  }
+  
+  @keyframes mymove {
+    from {top: 0px;}
+    to {top: 500px;}
+  }
+  /* Sirin - the keyframe animation end */
+
 /* Generic settings for CSS */ 
 
 .reflection-header, .topical-header, .index-header, .accessibility-header {
