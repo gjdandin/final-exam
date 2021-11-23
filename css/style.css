@@ -78,6 +78,10 @@
       text-align: center; 
       vertical-align: bottom;
   }
+
+  .footer p {
+      font-weight:450;
+  }
   /* Sirin - Footer end*/
   
   /* Sirin - the keyframe animations */
