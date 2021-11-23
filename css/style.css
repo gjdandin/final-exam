@@ -1,6 +1,5 @@
 
-     /* font-family: "Geomanist", sans-serif; */
-    /*I have tried to set Geomanist as default font but couldn't see any diffenrance*/
+     /* font size 1em is 16px*/
 
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -9,16 +8,20 @@
       margin: 0;
       line-height: 1.44;
       -webkit-font-smoothing: antialiased;
-      font-size:18px;
+      font-size:1.125em;
       font-stretch: 100%;
       color:#3e3e3e;
       background:#fff;
-  }
+    }
+
+    h2 {
+      font-size:1em;
+    }
   
-  img {
-      width: 100%;
-      height: 100%;
-  }
+    img {
+        width: 100%;
+        height: 100%;
+    }
     
   /* Sirin - CSS code from W3S - off-canvas menu*/  
     .sidenav {
@@ -38,7 +41,7 @@
       padding: 8px 8px 8px 26px;
       text-decoration: none;
       font-size: 24px;
-      color: #919191;
+      color: #f3e7e7;
       display: block;
       transition: 0.3s;
     }
@@ -57,7 +60,7 @@
     
     #main {
       transition: margin-left .5s;
-      padding: 16px;
+      padding: 1rem;
     }
     
   /* end CSS code from W3S - off-canvas menu*/
@@ -192,10 +195,10 @@
   @media screen and (max-height: 450px) and (max-width:414px) {
       .sidenav {
           padding-top: 10px;
-          font-size: 16px;
+          font-size: 1em;
           width: 100vw;
       }
-      .sidenav a {font-size: 16px;}
+      .sidenav a {font-size: 1em;}
    
       .footer {font-size: 12px;}
   
@@ -207,7 +210,7 @@
           justify-content: center;
           padding:25px 0px 20px 0px;
           color: #f3e7e7;
-          font-size: x-large;
+          font-size: 1.5em;
       }
   
       .sidenav .closebtn {
@@ -216,9 +219,9 @@
   }
   
   @media only screen and (max-width:414px) {
-          .reflection-article, .topical-article, {
+      .reflection-article, .topical-article {
           padding:0 25px;
-          font-size: 16px;
+          font-size: 1em;
           float: none; 
           width: 100%;  
       }
@@ -226,12 +229,12 @@
           width:90vw;
       }
       .topical-main, .topical-main {
-          font-size: 16px;
+          font-size: 1em;
           float: none; 
           width: 100%;
       }
       .reflection-header h1 {
-          font-size:x-large;
+          font-size:1.5em;
       }
       .article-div picture {
           display:flex;
@@ -240,7 +243,7 @@
   }
   @media only screen and (min-width:414px) and (max-width:768px) {
       .article-div {
-          margin:20px;
+          margin:1.25rem;
       }
       .article-div picture {
           display:flex;
@@ -248,6 +251,6 @@
       }
   }
   /* End Responsive css */
-  /* End Reflection page */
+
   
   
