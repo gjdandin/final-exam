@@ -176,7 +176,17 @@
   ul {
     list-style-type: none;
   }
-  
+
+  /*Topical-information end*/
+
+  /*Reflection article image effects*/
+  .reflection-article img {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  }
+  .reflection-article img:hover {
+    transform: scale(1.03);
+  }
+  /*Reflection article end*/
   
    /* This is code to stop the links in the source list to overflow the webpage on smaller screens due to long words */
   .sources-div {
