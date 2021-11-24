@@ -16,6 +16,11 @@
       box-sizing: border-box;
     }
 
+  #menu-hr {
+    size: 3;
+    color: #111;
+  }
+
   h2 {
       font-size:1em;
     }
