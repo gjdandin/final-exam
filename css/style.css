@@ -185,8 +185,6 @@ main {
   .fun-main{
     display: grid;
     color: white;
-    
-    
     gap: 4rem;
   }
 
@@ -210,7 +208,7 @@ main {
     font-size: 3em;
     font-weight: 600;
     transform-origin: left;
-    animation: flyIn 2.5s forwards;
+    animation: flyIn 2.5s alternate infinite;
     opacity: 0;
   }
 
@@ -271,55 +269,6 @@ main {
 
 .word-cloud li{
   padding: 0.2rem;
-}
-
-.size-12em{
-  font-size: 1.2em;
-}
-
-.size-13em{
-  font-size: 1.2em;
-}
-
-.size-17em{
-  font-size: 1.7em;
-}
-
-.size-14em{
-  font-size: 1.4em;
-}
-
-.size-15em{
-  font-size: 1.5em;
-}
-
-.size-16em{
-  font-size: 1.6em;
-}
-
-.size-29em{
-  font-size: 2.9em;
-}
-
-.size-32em{
-  font-size: 3.2em;
-}
-
-.size-18em{
-  font-size: 1.8em;
-}
-
-.size-27em{
-  font-size: 2.7em;
-}
-
-
-.size-2em{
-  font-size: 2em;
-}
-
-.size-22em{
-  font-size: 2.2em;
 }
 
 .jumping-animation{
