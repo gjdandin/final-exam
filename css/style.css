@@ -23,7 +23,7 @@
         height: 100%;
     }
     
-  /* Sirin - CSS code from W3S - off-canvas menu*/  
+  /* Sirin - CSS code from W3S - off-canvas menu - modified and added new features*/  
     .sidenav {
       height: 100%;
       width: 0;
@@ -56,6 +56,14 @@
       right: 24px;
       font-size: 32px;
       margin-left: 50px;
+    }
+
+    .menu-button{
+      font-size:30px; 
+      cursor:pointer; 
+      border: 0rem; 
+      background-color: #fff;
+
     }
     
     #main {
