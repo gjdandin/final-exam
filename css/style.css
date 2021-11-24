@@ -12,6 +12,7 @@
       font-stretch: 100%;
       color:#3e3e3e;
       background:#fff;
+      box-sizing: border-box;
     }
 
     h2 {
@@ -146,7 +147,7 @@
       display:flex;
       justify-content: center;
   }
-  .reflection-main, .topical-main, .index-main, .accessibility-main {
+  .reflection-main, .topical-main, .fun-main, .accessibility-main {
       display:flex;
       justify-content: center;
       vertical-align: baseline;
@@ -201,6 +202,72 @@
 
 
   /* Topical information end */
+
+  /* Bhiravina - Fun page */
+
+  .fun-heading{
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+  }
+
+  .fun-heading li{
+    list-style: none;
+    font-size: 2em;
+    font-weight: 600;
+    transform-origin: left;
+    animation: flyIn 2.5s forwards;
+    opacity: 0;
+  }
+
+  @keyframes flyIn {
+    0% {
+        opacity: 0;
+        transform: rotateY(90deg);
+        transform: translateX(-20px);
+    }
+    40% {
+        opacity: 0.3;
+        transform: rotateY(0deg);
+        transform: translateX(20px);
+        transform: scale(0.8);
+    }
+    
+    70%{
+        opacity: 0.5;
+    }
+    
+    100% {
+        opacity: 1;
+        transform: rotateY(0deg);
+    }
+  }
+
+  ul li:nth-child(1) {
+    animation-delay: 0s;
+}
+ul li:nth-child(2) {
+    animation-delay: 0.2s;
+}
+ul li:nth-child(3) {
+    animation-delay: 0.4s;
+}
+ul li:nth-child(4) {
+    animation-delay: 0.6s;
+    margin-right:0.5rem;
+}
+ul li:nth-child(5) {
+    animation-delay: 0.8s;
+}
+ul li:nth-child(6) {
+    animation-delay: 1s;
+}
+ul li:nth-child(7) {
+    animation-delay: 1.2s;
+}
+ul li:nth-child(8) {
+    animation-delay: 1.4s;
+}
   
   /* Responsive css */
   @media screen and (max-height: 450px) and (max-width:414px) {
