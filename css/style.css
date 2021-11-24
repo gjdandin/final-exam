@@ -1,30 +1,60 @@
 
-     /* font size 1em is 16px*/
+/* Generic settings for CSS */
+ /* font size 1em is 16px*/
 
-    body {
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  body {
+      font-family: Helvetica, sans-serif;
       height: 100%;
       width: 100%;
       margin: 0;
-      line-height: 1.44;
+      line-height: 1.4em;
       -webkit-font-smoothing: antialiased;
-      font-size:1.125em;
+      font-size: 1.1em;
       font-stretch: 100%;
       color:#3e3e3e;
       background:#fff;
       box-sizing: border-box;
     }
 
-    h2 {
+  h2 {
       font-size:1em;
     }
   
-    img {
+  img {
       width: 100%;
       height: 100%;
     }
     
-  /* Sirin - CSS code from W3S - off-canvas menu - modified and added new features*/  
+  .reflection-header, .topical-header, .index-header, .accessibility-header {
+    margin-top: 1rem;
+    display:flex;
+    justify-content: center;
+}
+.reflection-main, .topical-main, .fun-main, .accessibility-main, .index-main {
+    display:flex;
+    justify-content: center;
+    vertical-align: baseline;
+}
+.reflection-article, .topical-article, .index-article, .accessibility-article {
+    width:800px;
+    margin-bottom:5rem;
+    justify-content: center;
+}
+.reflection-article hr, .topical-article hr {
+    margin:60px 0;
+}
+.article-div p{
+    line-height: 2.1;
+}
+.article-div {
+    margin-bottom:3rem;
+    justify-content: center;
+}
+
+/* Generic settings for CSS - end - */ 
+
+
+/* Sirin - CSS code from W3S - off-canvas menu - modified and added new features*/  
     .sidenav {
       height: 100%;
       width: 0;
@@ -71,7 +101,7 @@
       padding: 1rem;
     }
     
-  /* end CSS code from W3S - off-canvas menu*/
+  /* end CSS code from W3S - off-canvas menu */
   
   /* Sirin - Footer start*/
   .footer {
@@ -91,89 +121,7 @@
       font-weight:450;
   }
   /* Sirin - Footer end*/
-  
-  /* Sirin - the keyframe animations */
-  
-  .box {
-      width: 20px;
-      height: 10px;
-      background-color:black;
-      position: relative;
-      animation-name: box;
-      animation-duration: 6s;
-      animation-iteration-count: infinite;
-    }
-    
-    @keyframes box {
-      0%   {background-color:black; left:0px; top:0px;}
-      50%  {background-color:orange; left:800px; top:0px;}
-      100% {background-color:black; left:0px; top:0px;}
-    }
-  
-  .fun1 {
-      width: 20px;
-      height: 20px;
-      background: yellow;
-      position: relative;
-      animation: mymove 10s infinite;
-      font-weight: bold;
-      text-align: center;
-    }
-    
-    .fun2 {
-      width: 20px;
-      height: 20px;
-      background: dodgerblue;
-      position: relative;
-      animation: mymove 7s infinite;
-      font-weight: bold;
-      text-align: center;
-    }
-    
-    .fun3 {
-      width: 20px;
-      height: 20px;
-      background: magenta;
-      position: relative;
-      animation: mymove 5s infinite;
-      font-weight: bold;
-      text-align: center;
-    }
-    
-    @keyframes mymove {
-      from {top: 0px;}
-      to {top: 500px;}
-  
-    }
-    /* Sirin - the keyframe animation end */
-  
-  /* Generic settings for CSS */ 
-  
-  .reflection-header, .topical-header, .index-header, .accessibility-header {
-      margin-top: 1rem;
-      display:flex;
-      justify-content: center;
-  }
-  .reflection-main, .topical-main, .fun-main, .accessibility-main, .index-main {
-      display:flex;
-      justify-content: center;
-      vertical-align: baseline;
-  }
-  .reflection-article, .topical-article, .index-article, .accessibility-article {
-      width:800px;
-      margin-bottom:5rem;
-      justify-content: center;
-  }
-  .reflection-article hr, .topical-article hr {
-      margin:60px 0;
-  }
-  .article-div p{
-      line-height: 2.1;
-  }
-  .article-div {
-      margin-bottom:3rem;
-      justify-content: center;
-  }
+   
   
   /*Topical-information*/
   
@@ -191,9 +139,7 @@
     font-style: italic;
     /*Using flexbox to ensure the figuretext is always bellow the figure*/
   }
-
-  /*Topical-information end*/
-
+  
   /*Reflection article image effects*/
   .reflection-article img {
     box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -201,21 +147,14 @@
   /*Reflection article end*/
   
    /* This is code to stop the links in the source list to overflow the webpage on smaller screens due to long words */
-  .sources-div {
-  
-    overflow-wrap: break-word;
-  
-    
+  .sources-div {  
+    overflow-wrap: break-word;    
     word-break: break-word;
-  
-    /* Adds a hyphen on line breaks */
-    hyphens: auto;
-  
+    hyphens: auto;  
     /* Code from https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
   }
-
-
   /* Topical information end */
+
 
   /* Bhiravina - Fun page */
 
@@ -284,7 +223,9 @@ ul li:nth-child(8) {
     animation-delay: 1.4s;
 }
   
-  /* Responsive css */
+
+
+/* RESPONSIVE CSS - start - */
   @media screen and (max-height: 450px) and (max-width:414px) {
       .sidenav {
           padding-top: 10px;
