@@ -7,7 +7,7 @@
       height: 100%;
       width: 100%;
       margin: 0;
-      line-height: 1.4em;
+      line-height: 1.5em;
       -webkit-font-smoothing: antialiased;
       font-size: 1.1em;
       font-stretch: 100%;
@@ -25,17 +25,17 @@
       height: 100%;
     }
     
-  .reflection-header, .topical-header, .index-header, .accessibility-header {
+.header {
     margin-top: 1rem;
     display:flex;
     justify-content: center;
 }
-.reflection-main, .topical-main, .fun-main, .accessibility-main, .index-main {
+main {
     display:flex;
     justify-content: center;
     vertical-align: baseline;
 }
-.reflection-article, .topical-article, .index-article, .accessibility-article {
+.article {
     width:800px;
     margin-bottom:5rem;
     justify-content: center;
@@ -55,6 +55,8 @@
 
 
 /* Sirin - CSS code from W3S - off-canvas menu - modified and added new features*/  
+/* Link: https://www.w3schools.com/howto/howto_js_off-canvas.asp */
+
     .sidenav {
       height: 100%;
       width: 0;
