@@ -181,6 +181,17 @@
       text-decoration: underline;
   }
 
+  .topical article > figure {
+    display: flex;
+    flex-direction: column;
+  }
+
+  figcaption {
+    align-self: flex-end;
+    font-style: italic;
+    /*Using flexbox to ensure the figuretext is always bellow the figure*/
+  }
+
   /*Topical-information end*/
 
   /*Reflection article image effects*/
