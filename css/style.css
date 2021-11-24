@@ -147,7 +147,7 @@
       display:flex;
       justify-content: center;
   }
-  .reflection-main, .topical-main, .fun-main, .accessibility-main {
+  .reflection-main, .topical-main, .fun-main, .accessibility-main, .index-main {
       display:flex;
       justify-content: center;
       vertical-align: baseline;
@@ -209,6 +209,7 @@
     position: absolute;
     display: flex;
     flex-direction: row;
+    padding: 0;
   }
 
   .fun-heading li{
