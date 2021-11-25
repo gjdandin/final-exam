@@ -190,7 +190,7 @@ main {
   .iframe-container{
     width: 100%;
     height: 400px; 
-    
+    margin: 0; 
   }
 
   iframe{
@@ -202,8 +202,8 @@ main {
 
   .wordcloud-container{
     max-width: 480px;
+    height: 100%;
     margin: 0;
-    align-items: center;
   }
 
   .wordcloud-container img{
