@@ -115,7 +115,7 @@ main {
   /* end CSS code from W3S - off-canvas menu */
   
   /* Sirin - Footer start*/
-  .footer {
+  footer {
       position: relative;
       margin: 0;
       width: 100%;
@@ -128,7 +128,7 @@ main {
       vertical-align: bottom;
   }
 
-  .footer p {
+  footer p {
       font-weight:450;
   }
   /* Sirin - Footer end*/
