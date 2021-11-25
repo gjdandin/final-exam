@@ -119,13 +119,9 @@ footer p {
     background-color: transparent;
   }
 
-  .menu-button-fun {
-      font-size:30px; 
-      cursor:pointer; 
-      border: 0rem; 
-      color: #fff;
-      background-color: transparent;
-    }
+  #white-color{
+    color: white;
+  }
   
   #main {
     transition: margin-left .5s;
