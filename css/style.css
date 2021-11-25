@@ -20,6 +20,10 @@
     border-top : 3px solid black;
   }
 
+  #fun-hr {
+    border-top : 3px solid white;
+  }
+
   h2 {
       font-size:1em;
     }
