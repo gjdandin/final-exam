@@ -361,14 +361,11 @@ ul{
 #s3 {
   top:100px;
   right:80px;
-  transform-origin: left left;
-
 }
 
 #s4 {
   top:100px;
   left:80px;
-  transform-origin: left left;
 }
 
 #jumping-animation{
