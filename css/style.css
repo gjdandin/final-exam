@@ -176,16 +176,17 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 .fun-grid{
   display: grid;
   grid-template-columns: 1fr 1fr;
+  padding: 0 1rem;
   gap: 3rem;
   place-items: center;
 }
 
   .iframe-container{
-  width: 65%;
-  height: 10em;
+    width: 100%;
+    height: 300px; 
   margin: 0; 
-  border-radius: 1.3em;
-  border: 1em dotted #252f35; 
+  border-radius: 1.3rem;
+  border: 1rem dotted #252f35; 
   background-color: #252f35;
 }
 
@@ -220,7 +221,7 @@ ul{
 .intro-animation{
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
   gap: 1rem;
 }
 .fun-heading{
