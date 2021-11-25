@@ -72,6 +72,16 @@ footer p {
   font-weight:450;
 }
 
+/* This is code to stop the links in the source list to overflow the webpage on smaller screens due to long words */
+.sources-div {  
+  overflow-wrap: anywhere;
+  /* As the word-break deprecated, overflow-wrap was used instead. From https://stackoverflow.com/questions/47413677/alternative-for-word-break-break-word */
+  }
+
+  .sources-div > h2, h4 {
+    text-decoration: underline;
+  }
+
 /* Generic settings for CSS - end - */ 
 
 
@@ -136,20 +146,6 @@ footer p {
     padding: 1rem;
   }
 /* Sirin - accessibility page settings */
-
-/*Topical-information*/
-.sources-div > h2, h4 {
-  text-decoration: underline;
-}
-
-/* This is code to stop the links in the source list to overflow the webpage on smaller screens due to long words */
-.sources-div {  
-overflow-wrap: break-word;    
-word-break: break-word;
-hyphens: auto;  
-/* Code from https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
-}
-/* Topical information end */
 
 /*Reflection article image effects*/
 .article-div img {
@@ -487,5 +483,3 @@ ul{
   }
 }
 /* End Responsive css */
-
-

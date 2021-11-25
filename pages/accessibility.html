@@ -5,11 +5,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="..\css\style.css">
-  <link rel="apple-touch-icon" sizes="180x180" href="..\favicon\apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="..\favicon\favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="..\favicon\favicon-16x16.png">
-<link rel="manifest" href="..\favicon\site.webmanifest">
+  <link rel="stylesheet" href="../css/style.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+<link rel="manifest" href="../favicon/site.webmanifest">
   <title>Accessibility page</title>
 </head>
 
@@ -20,11 +20,11 @@
 
     <div id="mySidenav" class="sidenav">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="..\pages\index.html">Welcome</a>
-        <a href="..\pages\reflection.html">Reflection</a>
-        <a href="..\pages\accessibility.html">Accessibility</a>
-        <a href="..\pages\topical.html">Topical</a>
-        <a href="..\pages\fun.html">Fun</a>
+        <a href="../pages/index.html">Welcome</a>
+        <a href="../pages/reflection.html">Reflection</a>
+        <a href="../pages/accessibility.html">Accessibility</a>
+        <a href="../pages/topical.html">Topical</a>
+        <a href="../pages/fun.html">Fun</a>
     </div>
 
     <div id="main">       
@@ -47,8 +47,8 @@
                 </p>
                 <picture>
                     <!-- Image courtesy : Free vector illustrations by Greg Dlubacz on dribbble.com -->
-                    <source media="(max-width:768px)" srcset="..\img\accessibility-large-framed.jpg" alt="an illustration about accessibility">
-                    <img src="..\img\accessibility-large-framed.jpg" alt="an illustration about accessibility">
+                    <source media="(max-width:768px)" srcset="../img/accessibility-large-framed.jpg" alt="an illustration about accessibility">
+                    <img src="../img/accessibility-large-framed.jpg" alt="an illustration about accessibility">
                 </picture>
                 <p>
                 When we design accessibility in mind we should prioritize simplicity and perceivability 
@@ -79,12 +79,17 @@
                 </ul>
 
                 <h2>Our validation results:</h2>
-                    <p><b>1 - Welcome (index) page:</b> Summary and ScrShot </p>
-                    <p><b>3 - Reflection page:</b>  Summary and ScrShot </p>
-                    <p><b>4 - Accessibility page:</b>  Summary and ScrShot </p>
-                    <p><b>2 - Topical information page:</b> no errors for A-checker or HTML-checker. >>> SCRSHOT</p>
-                    <p><b>5 - Fun page:</b>  Summary and ScrShot </p>
-               
+
+                    <ol>
+                        <li> <b>Welcome (index) page:</b> Summary and ScrShot </li>
+                        <li> <b>Reflection page:</b>  Summary and ScrShot </li>
+                        <li> <b>Accessibility page:</b> Summary and ScrShot </li>
+                        <li> <b>Topical information page:</b> Accessability test showed no known or likely problems. The HTML-checker showed some errors, mostly
+                            backslash being used for paths and some CSS elements being in the text. This was fixes, and the resulting test showed no errors.</li>
+                        <li> <b>Fun page:</b> Summary and ScrShot </li>
+                        <li> <b>CSS:</b> The following errors were found: </li>
+                    </ol> 
+
                     <p><b>We have used the following pages for validation tests:</b></p>
 
                     <ul id="accessibility-ul"> 
@@ -92,7 +97,7 @@
                             <a href="https://achecker.achecks.ca/checker/index.php " target="_blank">Accessability checker</a>
                         </li>
                         <li>
-                            <a href="https://validator.w3.org/nu/ " target="_blank">HTML-checker</a>
+                            <a href="https://validator.w3.org/nu/" target="_blank">HTML-checker</a>
                         </li>
                         <li> 
                             <a href="https://jigsaw.w3.org/css-validator/ " target="_blank">CSS-checker</a>
