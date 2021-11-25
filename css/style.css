@@ -327,7 +327,7 @@ main {
   left:102px;
   transform:rotate(140deg);
   transform-origin: center bottom;
-  animation: bevegArmer1 1.8s ease-in-out forwards alternate;
+  animation: moveArm1 1.8s ease-in-out forwards alternate;
   animation-iteration-count: 3;
 }
 
@@ -336,11 +336,11 @@ main {
   right:102px;
   transform-origin: center bottom;  
   transform:rotate(-140deg);
-  animation: bevegArmer2 1.8s ease-in-out forwards alternate;
+  animation: moveArm2 1.8s ease-in-out forwards alternate;
   animation-iteration-count: 3;
 }
 
-@keyframes bevegArmer1 {
+@keyframes moveArm1 {
   from {
       transform:rotate(140deg); 
   }
@@ -349,7 +349,7 @@ main {
   }
 }
 
-@keyframes bevegArmer2 {
+@keyframes moveArm2 {
   from {
       transform:rotate(-140deg); 
   }
@@ -374,10 +374,10 @@ main {
 
 .container {
   position: relative;
-  animation:hopp 1.8s linear forwards;
+  animation:jump 1.8s linear forwards;
 }
 
-@keyframes hopp {
+@keyframes jump {
   0% {
       transform: translate(0,0); 
   }
@@ -400,11 +400,9 @@ main {
       transform: translate(0,0); 
       display: none;
       
-    }
-    
+  }
 }
   
-
 
 /* RESPONSIVE CSS - start - */
   @media screen and (max-height: 450px) and (max-width:414px) {
