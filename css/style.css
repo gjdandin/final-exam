@@ -182,32 +182,32 @@ main {
 
   .fun-grid{
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 1fr 1fr;
     gap: 3rem;
     place-items: center;
   }
 
   .iframe-container{
     width: 100%;
-    height: 350px; 
+    height: 400px; 
     
   }
 
   iframe{
-      width: 75%;
-      height: 75%;
+      width: 100%;
+      height: 100%;
       border: 1px solid #252f35; 
       background-color: #252f35;
   }
 
   .wordcloud-container{
-    max-width: 350px;
+    max-width: 480px;
     margin: 0;
     align-items: center;
   }
 
   .wordcloud-container img{
-    width: 150%;
+    width: 100%;
     height: 100%;
   }
 
