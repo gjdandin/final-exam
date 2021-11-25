@@ -242,24 +242,24 @@ ul{
 
 @keyframes flyIn {
   0% {
-      opacity: 0;
-      transform: rotateY(90deg);
-      transform: translateX(-20px);
+    opacity: 0;
+    transform: rotateY(90deg);
+    transform: translateX(-20px);
   }
   40% {
-      opacity: 0.3;
-      transform: rotateY(0deg);
-      transform: translateX(20px);
-      transform: scale(0.8);
+    opacity: 0.3;
+    transform: rotateY(0deg);
+    transform: translateX(20px);
+    transform: scale(0.8);
   }
   
   70%{
-      opacity: 0.5;
+    opacity: 0.5;
   }
   
   100% {
-      opacity: 1;
-      transform: rotateY(0deg);
+    opacity: 1;
+    transform: rotateY(0deg);
   }
 }
 
@@ -306,106 +306,106 @@ ul{
 }
 
 #jumping-animation-container{
-display: flex;
-justify-content: center;
-transform: scale(0.8);
+  display: flex;
+  justify-content: center;
+  transform: scale(0.8);
 }
 
 #circle {
-width:80px;
-height:80px;
-border: 25px solid rgb(238, 184, 7);
-border-radius: 50%;
+  width:80px;
+  height:80px;
+  border: 25px solid rgb(238, 184, 7);
+  border-radius: 50%;
 }
 
 .line {
-width:20px;
-height:65px;
-background-color:rgb(238, 184, 7);
-border-radius: 12px; 
-position: absolute;
+  width:20px;
+  height:65px;
+  background-color:rgb(238, 184, 7);
+  border-radius: 12px; 
+  position: absolute;
 }
 
 #s1 {
-top:7px;
-left:102px;
-transform:rotate(140deg);
-transform-origin: center bottom;
-animation: moveArm1 1.8s ease-in-out forwards alternate;
-animation-iteration-count: 3;
+  top:7px;
+  left:102px;
+  transform:rotate(140deg);
+  transform-origin: center bottom;
+  animation: moveArm1 1.8s ease-in-out forwards alternate;
+  animation-iteration-count: 3;
 }
 
 #s2 {
-top:-7px;
-right:102px;
-transform-origin: center bottom;  
-transform:rotate(-140deg);
-animation: moveArm2 1.8s ease-in-out forwards alternate;
-animation-iteration-count: 3;
+  top:-7px;
+  right:102px;
+  transform-origin: center bottom;  
+  transform:rotate(-140deg);
+  animation: moveArm2 1.8s ease-in-out forwards alternate;
+  animation-iteration-count: 3;
 }
 
 @keyframes moveArm1 {
-from {
+  from {
     transform:rotate(140deg); 
-}
-to {
+  }
+  to {
     transform:rotate(50deg);
-}
+  }
 }
 
 @keyframes moveArm2 {
-from {
+  from {
     transform:rotate(-140deg); 
-}
-to {
+  }
+  to {
     transform:rotate(-50deg);
-}
+  }
 }
 
 #s3 {
-top:100px;
-right:80px;
-transform-origin: left left;
+  top:100px;
+  right:80px;
+  transform-origin: left left;
 
 }
 
 #s4 {
-top:100px;
-left:80px;
-transform-origin: left left;
-
+  top:100px;
+  left:80px;
+  transform-origin: left left;
 }
 
 #jumping-animation{
-position: relative;
-animation:jump 1.8s linear forwards;
+  position: relative;
+  animation:jump 1.8s linear forwards;
 }
 
 @keyframes jump {
-0% {
+  0% {
     transform: translate(0,0); 
-}
-10% {
+  }
+  10% {
     transform: translate(0,0); 
-}
-30% { 
+  }
+  30% { 
     transform: translate(0,-30px); 
-}
-50% { 
+  }
+  50% { 
     transform: translate(0,0); 
-}
-57% {
+  }
+  57% {
     transform: translate(0,-7px); 
-}
-64% {
+  }
+  64% {
     transform: translate(0,0); 
-}
-100% {
+  }
+  100% {
     transform: translate(0,0); 
     display: none;
-    
+  }
 }
-}
+
+/*Fun page end*/ 
 
 
 /* RESPONSIVE CSS - start - */
