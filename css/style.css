@@ -1,59 +1,75 @@
 
 /* Generic settings for CSS */
- /* font size 1em is 16px*/
+/* font size 1em is 16px*/
 
-  body {
-      font-family: Helvetica, sans-serif;
-      height: 100%;
-      width: 100%;
-      margin: 0;
-      line-height: 1.5em;
-      -webkit-font-smoothing: antialiased;
-      font-size: 1.1em;
-      font-stretch: 100%;
-      color:#3e3e3e;
-      background:#fff;
-      box-sizing: border-box;
-    }
-
-  hr {
-    border-top : 3px solid black;
+body {
+    font-family: Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    line-height: 1.5em;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1.1em;
+    font-stretch: 100%;
+    color:#3e3e3e;
+    background:#fff;
+    box-sizing: border-box;
   }
 
-  h2 {
-      font-size:1em;
-    }
+hr {
+  border-top : 3px solid black;
+}
+
+h2 {
+    font-size:1em;
+  }
+
+img {
+    width: 100%;
+    height: 100%;
+  }
   
-  img {
-      width: 100%;
-      height: 100%;
-    }
-    
 .header {
-    margin-top: 1rem;
-    display:flex;
-    justify-content: center;
-    line-height: 1.5;
+  margin-top: 1rem;
+  display:flex;
+  justify-content: center;
+  line-height: 1.5;
 }
 main {
-    display:flex;
-    justify-content: center;
-    vertical-align: baseline;
+  display:flex;
+  justify-content: center;
+  vertical-align: baseline;
 }
 .article {
-    width:800px;
-    margin-bottom:5rem;
-    justify-content: center;
+  width:800px;
+  margin-bottom:5rem;
+  justify-content: center;
 }
 .article hr, .article hr {
-    margin:3em 0;
+  margin:3em 0;
 }
 .article-div p{
-    line-height: 2.1;
+  line-height: 2.1;
 }
 .article-div {
-    margin-bottom:3rem;
-    justify-content: center;
+  margin-bottom:3rem;
+  justify-content: center;
+}
+
+footer {
+  position: relative;
+  margin: 0;
+  width: 100%;
+  height: 40px;
+  padding: 10px 0;
+  font-size: small;
+  background-color: #FFDC00;
+  color: #2b2306;
+  text-align: center; 
+  vertical-align: bottom;
+}
+footer p {
+  font-weight:450;
 }
 
 /* Generic settings for CSS - end - */ 
@@ -62,434 +78,412 @@ main {
 /* Sirin - CSS code from W3S - off-canvas menu - modified and added new features*/  
 /* Link: https://www.w3schools.com/howto/howto_js_off-canvas.asp */
 
-    .sidenav {
-      height: 100%;
-      width: 0;
-      position: fixed;
-      z-index: 1;
-      top: 0;
-      left: 0;
-      background-color: #111;
-      overflow-x: hidden;
-      transition: 0.5s;
-      padding-top: 60px;
-    }
-    
-    .sidenav a {
-      padding: 8px 8px 8px 26px;
-      text-decoration: none;
-      font-size: 24px;
-      color: #f3e7e7;
-      display: block;
-      transition: 0.3s;
-    }
-    
-    .sidenav a:hover {
-      color: #f1c010;
-    }
-    
-    .sidenav .closebtn {
-      position: absolute;
-      top: 0;
-      right: 24px;
-      font-size: 32px;
-      margin-left: 50px;
-    }
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 26px;
+    text-decoration: none;
+    font-size: 24px;
+    color: #f3e7e7;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1c010;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 24px;
+    font-size: 32px;
+    margin-left: 50px;
+  }
 
-    .menu-button{
+  .menu-button{
+    font-size:30px; 
+    cursor:pointer; 
+    border: 0rem; 
+    background-color: transparent;
+  }
+
+  .menu-button-fun {
       font-size:30px; 
       cursor:pointer; 
       border: 0rem; 
+      color: #fff;
       background-color: transparent;
     }
-
-    .menu-button-fun {
-        font-size:30px; 
-        cursor:pointer; 
-        border: 0rem; 
-        color: #fff;
-        background-color: transparent;
-      }
-    
-    #main {
-      transition: margin-left .5s;
-      padding: 1rem;
-    }
-    
-  /* end CSS code from W3S - off-canvas menu */
   
-  /* Sirin - Footer start*/
-  footer {
-      position: relative;
-      margin: 0;
-      width: 100%;
-      height: 40px;
-      padding: 10px 0;
-      font-size: small;
-      background-color: #FFDC00;
-      color: #2b2306;
-      text-align: center; 
-      vertical-align: bottom;
+  #main {
+    transition: margin-left .5s;
+    padding: 1rem;
   }
+  
+/* end CSS code from W3S - off-canvas menu */
 
-  footer p {
-      font-weight:450;
-  }
-  /* Sirin - Footer end*/
-
-  /* Sirin - accessibility page settings */
+/* Sirin - accessibility page settings */
 
   #accessibility-ul{
-    padding: 2rem;
+    padding: 1rem;
   }
-   
-  
-  /*Topical-information*/
-  
-  .sources-div > h2, h4 {
-      text-decoration: underline;
-  }
+/* Sirin - accessibility page settings */
+
+/*Topical-information*/
+.sources-div > h2, h4 {
+  text-decoration: underline;
+}
+
+/* This is code to stop the links in the source list to overflow the webpage on smaller screens due to long words */
+.sources-div {  
+overflow-wrap: break-word;    
+word-break: break-word;
+hyphens: auto;  
+/* Code from https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
+}
+/* Topical information end */
+
+/*Reflection article image effects*/
+.article-div img {
+box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+/*Reflection article end*/ 
 
 
-    /* This is code to stop the links in the source list to overflow the webpage on smaller screens due to long words */
-  .sources-div {  
-    overflow-wrap: break-word;    
-    word-break: break-word;
-    hyphens: auto;  
-    /* Code from https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
-  }
-  /* Topical information end */
-  
-  /*Reflection article image effects*/
-  .article-div img {
-    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
-  }
-  /*Reflection article end*/ 
+/* Bhiravina - Fun page */
+/* Background img curtosy: www.wallpaperflare.com */
 
+.background{
+  background-image: linear-gradient(rgb(27 27 26 / 76%), rgb(51 51 48 / 73%)), url(../img/glass.jpeg);
+  background-size: cover;
+  background-position: center;
+  min-height: calc(100vh - 2rem);
+  align-items: center;
+}
 
-  /* Bhiravina - Fun page */
-  /* Background img curtosy: www.wallpaperflare.com */
+.fun-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  place-items: center;
+}
 
-  .background{
-    background-image: linear-gradient(rgb(27 27 26 / 76%), rgb(51 51 48 / 73%)), url(../img/glass.jpeg);
-    background-size: cover;
-    background-position: center;
-    min-height: calc(100vh - 2rem);
-    align-items: center;
-  }
+  .iframe-container{
+  width: 65%;
+  height: 10em;
+  margin: 0; 
+}
 
-  .fun-grid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 3rem;
-    place-items: center;
-  }
-
-   .iframe-container{
-    width: 65%;
-    height: 10em;
-    margin: 0; 
-  }
-
-  iframe{
-    width: 100%;
-    height:100%;
-    border-radius: 1.3em;
-    border: 1em dotted #252f35; 
-    background-color: #252f35;
+iframe{
+  width: 100%;
+  height:100%;
+  border-radius: 1.3em;
+  border: 1em dotted #252f35; 
+  background-color: #252f35;
 
 }
 
-  .wordcloud-container{
-    max-width: 480px;
-    height: 100%;
-    margin: 0;
-  }
+.wordcloud-container{
+  max-width: 480px;
+  height: 100%;
+  margin: 0;
+}
 
-  .wordcloud-container img{
-    width: 100%;
-    height: 100%;
-  }
+.wordcloud-container img{
+  width: 100%;
+  height: 100%;
+}
 
-  .fun-main{
-    display: grid;
-    color: white;
-    gap: 3rem;
-    align-items: center;
-  }
+.fun-main{
+  display: grid;
+  color: white;
+  gap: 3rem;
+  align-items: center;
+}
 
-  ul{
-    padding: 0;
-  }
+ul{
+  padding: 0;
+}
 
-  .intro-animation{
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-    gap: 1rem;
-  }
-  .fun-heading{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
+.intro-animation{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  gap: 1rem;
+}
+.fun-heading{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
 
-  .fun-heading li{
-    list-style: none;
-    font-size: 3em;
-    font-weight: 600;
-    transform-origin: left;
-    animation: flyIn 2.5s alternate infinite;
-    opacity: 0;
-  }
+.fun-heading li{
+  list-style: none;
+  font-size: 3em;
+  font-weight: 600;
+  transform-origin: left;
+  animation: flyIn 2.5s alternate infinite;
+  opacity: 0;
+}
 
-  @keyframes flyIn {
-    0% {
-        opacity: 0;
-        transform: rotateY(90deg);
-        transform: translateX(-20px);
-    }
-    40% {
-        opacity: 0.3;
-        transform: rotateY(0deg);
-        transform: translateX(20px);
-        transform: scale(0.8);
-    }
-    
-    70%{
-        opacity: 0.5;
-    }
-    
-    100% {
-        opacity: 1;
-        transform: rotateY(0deg);
-    }
+@keyframes flyIn {
+  0% {
+      opacity: 0;
+      transform: rotateY(90deg);
+      transform: translateX(-20px);
   }
+  40% {
+      opacity: 0.3;
+      transform: rotateY(0deg);
+      transform: translateX(20px);
+      transform: scale(0.8);
+  }
+  
+  70%{
+      opacity: 0.5;
+  }
+  
+  100% {
+      opacity: 1;
+      transform: rotateY(0deg);
+  }
+}
 
 .fun-heading li:nth-child(1) {
-    animation-delay: 1s;
+  animation-delay: 1s;
 }
 .fun-heading li:nth-child(2) {
-    animation-delay: 1.2s;
+  animation-delay: 1.2s;
 }
 .fun-heading li:nth-child(3) {
-    animation-delay: 1.4s;
+  animation-delay: 1.4s;
 }
 .fun-heading li:nth-child(4) {
-    animation-delay: 1.6s;
+  animation-delay: 1.6s;
 }
 .fun-heading li:nth-child(5) {
-    animation-delay: 1.8s;
+  animation-delay: 1.8s;
 }
 .fun-heading li:nth-child(6) {
-    animation-delay: 2s;
+  animation-delay: 2s;
 }
 .fun-heading li:nth-child(7) {
-    animation-delay: 2.2s;
+  animation-delay: 2.2s;
 }
 .fun-heading li:nth-child(8) {
-    animation-delay: 2.4s;
-    margin-right:0.5rem;
+  animation-delay: 2.4s;
+  margin-right:0.5rem;
 }
 .fun-heading li:nth-child(9) {
-    animation-delay: 2.6s;
+  animation-delay: 2.6s;
 }
 .fun-heading li:nth-child(10) {
-    animation-delay: 2.8s;
-    margin-right:0.5rem;
+  animation-delay: 2.8s;
+  margin-right:0.5rem;
 }
 .fun-heading li:nth-child(11) {
-    animation-delay: 3s;
+  animation-delay: 3s;
 }
 .fun-heading li:nth-child(12) {
-    animation-delay: 3.2s;
+  animation-delay: 3.2s;
 }
 .fun-heading li:nth-child(13) {
-    animation-delay: 3.4s;
+  animation-delay: 3.4s;
 }
 
 .jumping-animation{
-  display: flex;
-  justify-content: center;
-  transform: scale(0.8);
+display: flex;
+justify-content: center;
+transform: scale(0.8);
 }
 
 .sirkel {
-  width:80px;
-  height:80px;
-  border: 25px solid rgb(238, 184, 7);
-  border-radius: 50%;
+width:80px;
+height:80px;
+border: 25px solid rgb(238, 184, 7);
+border-radius: 50%;
 }
 
 .strek {
-  width:20px;
-  height:65px;
-  background-color:rgb(238, 184, 7);
-  border-radius: 12px; 
-  position: absolute;
+width:20px;
+height:65px;
+background-color:rgb(238, 184, 7);
+border-radius: 12px; 
+position: absolute;
 }
 
 .s1 {
-  top:7px;
-  left:102px;
-  transform:rotate(140deg);
-  transform-origin: center bottom;
-  animation: moveArm1 1.8s ease-in-out forwards alternate;
-  animation-iteration-count: 3;
+top:7px;
+left:102px;
+transform:rotate(140deg);
+transform-origin: center bottom;
+animation: moveArm1 1.8s ease-in-out forwards alternate;
+animation-iteration-count: 3;
 }
 
 .s2 {
-  top:-7px;
-  right:102px;
-  transform-origin: center bottom;  
-  transform:rotate(-140deg);
-  animation: moveArm2 1.8s ease-in-out forwards alternate;
-  animation-iteration-count: 3;
+top:-7px;
+right:102px;
+transform-origin: center bottom;  
+transform:rotate(-140deg);
+animation: moveArm2 1.8s ease-in-out forwards alternate;
+animation-iteration-count: 3;
 }
 
 @keyframes moveArm1 {
-  from {
-      transform:rotate(140deg); 
-  }
-  to {
-      transform:rotate(50deg);
-  }
+from {
+    transform:rotate(140deg); 
+}
+to {
+    transform:rotate(50deg);
+}
 }
 
 @keyframes moveArm2 {
-  from {
-      transform:rotate(-140deg); 
-  }
-  to {
-      transform:rotate(-50deg);
-  }
+from {
+    transform:rotate(-140deg); 
+}
+to {
+    transform:rotate(-50deg);
+}
 }
 
 .s3 {
-  top:100px;
-  right:80px;
-  transform-origin: left left;
-  
+top:100px;
+right:80px;
+transform-origin: left left;
+
 }
 
 .s4 {
-  top:100px;
-  left:80px;
-  transform-origin: left left;
-  
+top:100px;
+left:80px;
+transform-origin: left left;
+
 }
 
 .container {
-  position: relative;
-  animation:jump 1.8s linear forwards;
+position: relative;
+animation:jump 1.8s linear forwards;
 }
 
 @keyframes jump {
-  0% {
-      transform: translate(0,0); 
-  }
-  10% {
-      transform: translate(0,0); 
-  }
-  30% { 
-      transform: translate(0,-30px); 
-  }
-  50% { 
-      transform: translate(0,0); 
-  }
-  57% {
-      transform: translate(0,-7px); 
-  }
-  64% {
-      transform: translate(0,0); 
-  }
-  100% {
-      transform: translate(0,0); 
-      display: none;
-      
-  }
+0% {
+    transform: translate(0,0); 
 }
-  
+10% {
+    transform: translate(0,0); 
+}
+30% { 
+    transform: translate(0,-30px); 
+}
+50% { 
+    transform: translate(0,0); 
+}
+57% {
+    transform: translate(0,-7px); 
+}
+64% {
+    transform: translate(0,0); 
+}
+100% {
+    transform: translate(0,0); 
+    display: none;
+    
+}
+}
+
 
 /* RESPONSIVE CSS - start - */
-  @media screen and (max-height: 450px) and (max-width:414px) {
-      .sidenav {
-          padding-top: 10px;
-          font-size: 1em;
-          width: 100vw;
-      }
-      .sidenav a {font-size: 1em;}
-   
-      .footer {font-size: 12px;}
-  
-  }
-  
-  @media screen and (max-width: 414px) {
-      .sidenav a {
-          display: flex;
-          justify-content: center;
-          padding:25px 0px 20px 0px;
-          color: #f3e7e7;
-          font-size: 1.5em;
-      }
-  
-      .sidenav .closebtn {
-          padding:0;
-      }
-  }
-  
-  @media only screen and (max-width:414px) {
-      .reflection-article, .topical-article {
-          padding:0 25px;
-          font-size: 1em;
-          float: none; 
-          width: 100%;  
-      }
-      .article-div picture img {
-          width:90vw;
-      }
-      .topical-main, .topical-main {
-          font-size: 1em;
-          float: none; 
-          width: 100%;
-      }
-      .reflection-header h1 {
-          font-size:1.5em;
-      }
-      .article-div picture {
-          display:flex;
-          justify-content: center;
-      }
-  }
-  @media only screen and (min-width:414px) and (max-width:768px) {
-      .article-div {
-          margin:1.25rem;
-      }
-      .article-div picture {
-          display:flex;
-          justify-content: center;
-      }
-  }
-
-  @media screen and (max-width: 980px) {
-    .fun-grid{
-        grid-template-columns: 1fr;
+@media screen and (max-height: 450px) and (max-width:414px) {
+    .sidenav {
+        padding-top: 10px;
+        font-size: 1em;
+        width: 100vw;
     }
+    .sidenav a {font-size: 1em;}
+  
+    .footer {font-size: 12px;}
 
-    .intro-animation{
-        flex-direction: column;
-        align-items: center;
-    }
+}
 
-    .fun-heading li{
+@media screen and (max-width: 414px) {
+    .sidenav a {
+        display: flex;
+        justify-content: center;
+        padding:25px 0px 20px 0px;
+        color: #f3e7e7;
         font-size: 1.5em;
     }
 
-    .jumping-animation{
-        transform: scale(0.6);
+    .sidenav .closebtn {
+        padding:0;
     }
-  }
-  /* End Responsive css */
+}
 
-  
-  
+@media only screen and (max-width:414px) {
+    .reflection-article, .topical-article {
+        padding:0 25px;
+        font-size: 1em;
+        float: none; 
+        width: 100%;  
+    }
+    .article-div picture img {
+        width:90vw;
+    }
+    .topical-main, .topical-main {
+        font-size: 1em;
+        float: none; 
+        width: 100%;
+    }
+    .reflection-header h1 {
+        font-size:1.5em;
+    }
+    .article-div picture {
+        display:flex;
+        justify-content: center;
+    }
+}
+@media only screen and (min-width:414px) and (max-width:768px) {
+    .article-div {
+        margin:1.25rem;
+    }
+    .article-div picture {
+        display:flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 980px) {
+  .fun-grid{
+      grid-template-columns: 1fr;
+  }
+
+  .intro-animation{
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .fun-heading li{
+      font-size: 1.5em;
+  }
+
+  .jumping-animation{
+      transform: scale(0.6);
+  }
+}
+/* End Responsive css */
+
+
