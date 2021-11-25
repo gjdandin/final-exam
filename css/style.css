@@ -146,7 +146,7 @@ main {
   
   /*Topical-information*/
   
-  .sources-div > h2 {
+  .sources-div > h2, h4 {
       text-decoration: underline;
   }
 
