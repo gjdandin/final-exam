@@ -129,13 +129,9 @@ footer p {
     background-color: transparent;
   }
 
-  .menu-button-fun {
-      font-size:30px; 
-      cursor:pointer; 
-      border: 0rem; 
-      color: #fff;
-      background-color: transparent;
-    }
+  #white-color{
+    color: white;
+  }
   
   #main {
     transition: margin-left .5s;
@@ -221,13 +217,13 @@ ul{
   gap: 1rem;
 }
 
-#fun-heading{
+#animated-heading{
   display: flex;
   flex-direction: row;
   justify-content: center;
 }
 
-#fun-heading li{
+#animated-heading li{
   list-style: none;
   font-size: 3em;
   font-weight: 600;
@@ -238,170 +234,174 @@ ul{
 
 @keyframes flyIn {
   0% {
-      opacity: 0;
-      transform: rotateY(90deg);
-      transform: translateX(-20px);
+    opacity: 0;
+    transform: rotateY(90deg);
+    transform: translateX(-20px);
   }
   40% {
-      opacity: 0.3;
-      transform: rotateY(0deg);
-      transform: translateX(20px);
-      transform: scale(0.8);
+    opacity: 0.3;
+    transform: rotateY(0deg);
+    transform: translateX(20px);
+    transform: scale(0.8);
   }
   
   70%{
-      opacity: 0.5;
+    opacity: 0.5;
   }
   
   100% {
-      opacity: 1;
-      transform: rotateY(0deg);
+    opacity: 1;
+    transform: rotateY(0deg);
   }
 }
 
-#fun-heading li:nth-child(1) {
+#animated-heading li:nth-child(1) {
   animation-delay: 1s;
 }
-#fun-heading li:nth-child(2) {
+#animated-heading li:nth-child(2) {
   animation-delay: 1.2s;
 }
-#fun-heading li:nth-child(3) {
+#animated-heading li:nth-child(3) {
   animation-delay: 1.4s;
 }
-#fun-heading li:nth-child(4) {
+#animated-heading li:nth-child(4) {
   animation-delay: 1.6s;
 }
-#fun-heading li:nth-child(5) {
+#animated-heading li:nth-child(5) {
   animation-delay: 1.8s;
 }
-#fun-heading li:nth-child(6) {
+#animated-heading li:nth-child(6) {
   animation-delay: 2s;
 }
-#fun-heading li:nth-child(7) {
+#animated-heading li:nth-child(7) {
   animation-delay: 2.2s;
 }
-#fun-heading li:nth-child(8) {
+#animated-heading li:nth-child(8) {
   animation-delay: 2.4s;
   margin-right:0.5rem;
 }
-#fun-heading li:nth-child(9) {
+#animated-heading li:nth-child(9) {
   animation-delay: 2.6s;
 }
-#fun-heading li:nth-child(10) {
+#animated-heading li:nth-child(10) {
   animation-delay: 2.8s;
   margin-right:0.5rem;
 }
-#fun-heading li:nth-child(11) {
+#animated-heading li:nth-child(11) {
   animation-delay: 3s;
 }
-#fun-heading li:nth-child(12) {
+#animated-heading li:nth-child(12) {
   animation-delay: 3.2s;
 }
-#fun-heading li:nth-child(13) {
+#animated-heading li:nth-child(13) {
   animation-delay: 3.4s;
 }
 
-#jumping-animation{
-display: flex;
-justify-content: center;
-transform: scale(0.8);
+#jumping-animation-container{
+  display: flex;
+  justify-content: center;
+  transform: scale(0.8);
+}
+
+#black-background{
+  background-color: black;
 }
 
 #circle {
-width:80px;
-height:80px;
-border: 25px solid rgb(238, 184, 7);
-border-radius: 50%;
+  width:80px;
+  height:80px;
+  border: 25px solid rgb(238, 184, 7);
+  border-radius: 50%;
 }
 
 .line {
-width:20px;
-height:65px;
-background-color:rgb(238, 184, 7);
-border-radius: 12px; 
-position: absolute;
+  width:20px;
+  height:65px;
+  background-color:rgb(238, 184, 7);
+  border-radius: 12px; 
+  position: absolute;
 }
 
 #s1 {
-top:7px;
-left:102px;
-transform:rotate(140deg);
-transform-origin: center bottom;
-animation: moveArm1 1.8s ease-in-out forwards alternate;
-animation-iteration-count: 3;
+  top:7px;
+  left:102px;
+  transform:rotate(140deg);
+  transform-origin: center bottom;
+  animation: moveArm1 1.8s ease-in-out forwards alternate;
+  animation-iteration-count: 3;
 }
 
 #s2 {
-top:-7px;
-right:102px;
-transform-origin: center bottom;  
-transform:rotate(-140deg);
-animation: moveArm2 1.8s ease-in-out forwards alternate;
-animation-iteration-count: 3;
+  top:-7px;
+  right:102px;
+  transform-origin: center bottom;  
+  transform:rotate(-140deg);
+  animation: moveArm2 1.8s ease-in-out forwards alternate;
+  animation-iteration-count: 3;
 }
 
 @keyframes moveArm1 {
-from {
+  from {
     transform:rotate(140deg); 
-}
-to {
+  }
+  to {
     transform:rotate(50deg);
-}
+  }
 }
 
 @keyframes moveArm2 {
-from {
+  from {
     transform:rotate(-140deg); 
-}
-to {
+  }
+  to {
     transform:rotate(-50deg);
-}
+  }
 }
 
 #s3 {
-top:100px;
-right:80px;
-transform-origin: left left;
+  top:100px;
+  right:80px;
+  transform-origin: left left;
 
 }
 
 #s4 {
-top:100px;
-left:80px;
-transform-origin: left left;
-
+  top:100px;
+  left:80px;
+  transform-origin: left left;
 }
 
-#jumping-animation-container{
-position: relative;
-animation:jump 1.8s linear forwards;
+#jumping-animation{
+  position: relative;
+  animation:jump 1.8s linear forwards;
 }
 
 @keyframes jump {
-0% {
+  0% {
     transform: translate(0,0); 
-}
-10% {
+  }
+  10% {
     transform: translate(0,0); 
-}
-30% { 
+  }
+  30% { 
     transform: translate(0,-30px); 
-}
-50% { 
+  }
+  50% { 
     transform: translate(0,0); 
-}
-57% {
+  }
+  57% {
     transform: translate(0,-7px); 
-}
-64% {
+  }
+  64% {
     transform: translate(0,0); 
-}
-100% {
+  }
+  100% {
     transform: translate(0,0); 
     display: none;
-    
+  }
 }
-}
+
+/*Fun page end*/ 
 
 
 /* RESPONSIVE CSS - start - */
@@ -474,7 +474,7 @@ animation:jump 1.8s linear forwards;
       align-items: center;
   }
 
-  #fun-heading li{
+  #animated-heading li{
       font-size: 1.5em;
   }
 
