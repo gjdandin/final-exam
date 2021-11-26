@@ -8,7 +8,7 @@
 * Student 5
 ## ◕ Overview: 
 * Link to FINAL on Canvas - assignment description: https://oslomet.instructure.com/courses/22306/discussion_topics/186375
-* Repo on GitHub: https://github.com/gjdandin/final-exam
+* Repo on GitHub: we decided not to post the link to github to ensure the exam did not show any of our identities. 
 * Public URL-adress: 
 * Readme.md: 
 ## ◕ Useful links:
