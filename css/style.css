@@ -171,6 +171,10 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 /* Fun page */
 /* Background img curtosy: www.wallpaperflare.com */
 
+#black-background{
+  background-color: black;
+}
+
 .background{
   background-image: linear-gradient(rgb(27 27 26 / 76%), rgb(51 51 48 / 73%)), url(../img/glass.jpeg);
   background-size: cover;
@@ -179,49 +183,11 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   align-items: center;
 }
 
-#fun-grid{
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0 1rem;
-  gap: 3rem;
-  place-items: center;
-}
-
-  #iframe-container{
-  width: 100%;
-  height: 300px; 
-  margin: 0; 
-  border-radius: 1.3rem;
-  border: 1rem dotted #252f35; 
-  background-color: #252f35;
-}
-
-iframe{
-  width: 100%;
-  height:100%;
-  border: none;
-}
-
-#wordcloud-container{
-  max-width: 480px;
-  height: 100%;
-  margin: 0;
-}
-
-#wordcloud-container img{
-  width: 100%;
-  height: 100%;
-}
-
 #fun-main{
   display: grid;
   color: white;
   gap: 3rem;
   align-items: center;
-}
-
-ul{
-  padding: 0;
 }
 
 #fun-main div:first-child{
@@ -232,6 +198,7 @@ ul{
 }
 
 #animated-heading{
+  padding: 0;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -317,71 +284,6 @@ ul{
   transform: scale(0.8);
 }
 
-#black-background{
-  background-color: black;
-}
-
-#circle {
-  width:80px;
-  height:80px;
-  border: 25px solid rgb(238, 184, 7);
-  border-radius: 50%;
-}
-
-.line {
-  width:20px;
-  height:65px;
-  background-color:rgb(238, 184, 7);
-  border-radius: 12px; 
-  position: absolute;
-}
-
-#s1 {
-  top:7px;
-  left:102px;
-  transform:rotate(140deg);
-  transform-origin: center bottom;
-  animation: moveArm1 1.8s ease-in-out forwards alternate;
-  animation-iteration-count: 3;
-}
-
-#s2 {
-  top:-7px;
-  right:102px;
-  transform-origin: center bottom;  
-  transform:rotate(-140deg);
-  animation: moveArm2 1.8s ease-in-out forwards alternate;
-  animation-iteration-count: 3;
-}
-
-@keyframes moveArm1 {
-  from {
-    transform:rotate(140deg); 
-  }
-  to {
-    transform:rotate(50deg);
-  }
-}
-
-@keyframes moveArm2 {
-  from {
-    transform:rotate(-140deg); 
-  }
-  to {
-    transform:rotate(-50deg);
-  }
-}
-
-#s3 {
-  top:100px;
-  right:80px;
-}
-
-#s4 {
-  top:100px;
-  left:80px;
-}
-
 #jumping-animation-container > div{
   position: relative;
   animation:jump 1.8s linear forwards;
@@ -410,6 +312,101 @@ ul{
     transform: translate(0,0); 
     display: none;
   }
+}
+
+#circle {
+  width:80px;
+  height:80px;
+  border: 25px solid rgb(238, 184, 7);
+  border-radius: 50%;
+}
+
+.line {
+  width:20px;
+  height:65px;
+  background-color:rgb(238, 184, 7);
+  border-radius: 12px; 
+  position: absolute;
+}
+
+#s1 {
+  top:7px;
+  left:102px;
+  transform:rotate(140deg);
+  transform-origin: center bottom;
+  animation: moveArm1 1.8s ease-in-out forwards alternate;
+  animation-iteration-count: 3;
+}
+
+@keyframes moveArm1 {
+  from {
+    transform:rotate(140deg); 
+  }
+  to {
+    transform:rotate(50deg);
+  }
+}
+
+#s2 {
+  top:-7px;
+  right:102px;
+  transform-origin: center bottom;  
+  transform:rotate(-140deg);
+  animation: moveArm2 1.8s ease-in-out forwards alternate;
+  animation-iteration-count: 3;
+}
+
+@keyframes moveArm2 {
+  from {
+    transform:rotate(-140deg); 
+  }
+  to {
+    transform:rotate(-50deg);
+  }
+}
+
+#s3 {
+  top:100px;
+  right:80px;
+}
+
+#s4 {
+  top:100px;
+  left:80px;
+}
+
+#fun-grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0 1rem;
+  gap: 3rem;
+  place-items: center;
+}
+
+#iframe-container{
+  width: 100%;
+  height: 300px; 
+  margin: 0; 
+  border-radius: 1.3rem;
+  border: 1rem dotted #252f35; 
+  background-color: #252f35;
+}
+
+iframe{
+  width: 100%;
+  height:100%;
+  border: none;
+}
+
+#wordcloud-container{
+  max-width: 480px;
+  height: 100%;
+  margin: 0;
+}
+
+#wordcloud-container img{
+  width: 100%;
+  height: 100%;
 }
 
 /*Fun page end*/ 
