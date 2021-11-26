@@ -448,11 +448,6 @@ ul{
         padding:0;
     }
 
-    .thumbnail-img {
-      display: flex;
-      flex-direction: column;
-      }
-
     .article {
         padding:0 25px;
         font-size: 1em;
