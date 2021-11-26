@@ -422,9 +422,16 @@ ul{
         font-size: 1em;
         width: 100vw;
     }
-    .sidenav a {font-size: 1em;}
+    .sidenav a {font-size: 1em;
+    }
   
-    .footer {font-size: 12px;}
+    .footer {font-size: 12px;
+    }
+
+    .thumbnail-img {
+      display: flex;
+      flex-direction: column;
+      }
 
 }
 
@@ -440,9 +447,12 @@ ul{
     .sidenav .closebtn {
         padding:0;
     }
-}
 
-@media only screen and (max-width:414px) {
+    .thumbnail-img {
+      display: flex;
+      flex-direction: column;
+      }
+
     .article {
         padding:0 25px;
         font-size: 1em;
@@ -464,7 +474,13 @@ ul{
         display:flex;
         justify-content: center;
     }
+
+    .thumbnail-img {
+      display: flex;
+      flex-direction: column;
+      }
 }
+
 @media only screen and (min-width:414px) and (max-width:768px) {
     .article-div {
         margin:1.25rem;
@@ -473,6 +489,11 @@ ul{
         display:flex;
         justify-content: center;
     }
+
+    .thumbnail-img {
+      display: flex;
+      flex-direction: column;
+      }
 
 }
 
