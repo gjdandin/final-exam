@@ -19,8 +19,6 @@ hr {
   border-top : 3px solid black;
 }
 
-
-
 h2 {
     font-size:1em;
   }
@@ -30,7 +28,7 @@ img {
     height: 100%;
   }
   
-.header {
+header {
   margin-top: 1rem;
   display:flex;
   justify-content: center;
@@ -41,7 +39,7 @@ main {
   justify-content: center;
   vertical-align: baseline;
 }
-.article {
+article {
   width:800px;
   margin-bottom:5rem;
   justify-content: center;
