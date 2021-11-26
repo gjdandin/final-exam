@@ -93,7 +93,7 @@ figcaption{
 /* Generic settings for CSS - end - */ 
 
 
-/* Sirin - CSS code from W3S - off-canvas menu - modified and added new features*/  
+/* CSS code from W3S - off-canvas menu - modified and added new features*/  
 /* Link: https://www.w3schools.com/howto/howto_js_off-canvas.asp */
 
   .sidenav {
@@ -148,7 +148,7 @@ figcaption{
   
 /* end CSS code from W3S - off-canvas menu */
 
-/* Sirin - accessibility page settings */
+/* Accessibility page settings */
 
   #accessibility-ul {
     padding: 0 0 0 1em;
@@ -161,8 +161,6 @@ figcaption{
     display: inline-flex;
   }
 
-/* Sirin - accessibility page settings */
-
 /*Reflection article image effects*/
 .article-div img {
 box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
@@ -170,7 +168,7 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
 /*Reflection article end*/ 
 
 
-/* Bhiravina - Fun page */
+/* Fun page */
 /* Background img curtosy: www.wallpaperflare.com */
 
 .background{
