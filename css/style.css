@@ -77,8 +77,10 @@ footer p {
 /* This is code to stop the hyperlinks in the source list to overflow on smaller screens */
 
 .sources-div {  
-  overflow-wrap: anywhere;
-  /* As the word-break deprecated, overflow-wrap was used instead. From https://stackoverflow.com/questions/47413677/alternative-for-word-break-break-word */
+  overflow-wrap: break-word;    
+  word-break: break-word;
+  hyphens: auto;  
+  /* Code from https://css-tricks.com/snippets/css/prevent-long-urls-from-breaking-out-of-container/ */
   }
 
 .sources-div > h2 {
