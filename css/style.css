@@ -210,7 +210,7 @@ ul{
   padding: 0;
 }
 
-#intro-animation{
+#fun-main div:first-child{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -368,7 +368,7 @@ ul{
   left:80px;
 }
 
-#jumping-animation{
+#jumping-animation-container > div{
   position: relative;
   animation:jump 1.8s linear forwards;
 }
@@ -466,7 +466,7 @@ ul{
       grid-template-columns: 1fr;
   }
 
-  #intro-animation{
+  #fun-main div:first-child{
       flex-direction: column;
       align-items: center;
   }
@@ -475,7 +475,7 @@ ul{
       font-size: 1.5em;
   }
 
-  #jumping-animation{
+  #jumping-animation-container > div{
       transform: scale(0.6);
   }
 }
