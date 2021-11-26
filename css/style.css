@@ -193,13 +193,14 @@ box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
   color: white;
   gap: 3rem;
   align-items: center;
+  font-family: 'Gluten', sans-serif;
 }
 
 #fun-main div:first-child{
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 #animated-heading{
