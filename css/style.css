@@ -141,7 +141,7 @@ figcaption{
     color: white;
   }
   
-  #main {
+  #wrapper {
     transition: margin-left .5s;
     padding: 1rem;
   }
