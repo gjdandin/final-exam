@@ -71,7 +71,7 @@ footer p {
   font-weight:450;
 }
 
-/* This is code to stop the links in the source list to overflow the webpage on smaller screens due to long words */
+/* This is code to stop the hyperlinks in the source list to overflow on smaller screens */
 
 .sources-div {  
   overflow-wrap: anywhere;
