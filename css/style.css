@@ -35,13 +35,13 @@ header {
   line-height: 1.5;
 }
 main {
-  display:flex;
+  display: flex;
   justify-content: center;
   vertical-align: baseline;
 }
 article {
-  width:800px;
-  margin-bottom:5rem;
+  width: 50em;
+  margin-bottom: 5rem;
   justify-content: center;
 }
 .article hr, .article hr {
@@ -80,6 +80,11 @@ footer p {
 
 .sources-div > h2, h4 {
   text-decoration: underline;
+}
+
+figcaption{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: small;
 }
 
 /* Generic settings for CSS - end - */ 
@@ -142,9 +147,17 @@ footer p {
 
 /* Sirin - accessibility page settings */
 
-  #accessibility-ul{
-    padding: 1rem;
+  #accessibility-ul {
+    padding: 0 0 0 1em;
   }
+
+  .thumbnail-img {
+    width: 600px;
+    height: auto;
+    justify-content: center;
+    display: inline-flex;
+  }
+
 /* Sirin - accessibility page settings */
 
 /*Reflection article image effects*/
@@ -429,7 +442,7 @@ ul{
 }
 
 @media only screen and (max-width:414px) {
-    .reflection-article, .topical-article {
+    .article {
         padding:0 25px;
         font-size: 1em;
         float: none; 
@@ -438,12 +451,12 @@ ul{
     .article-div picture img {
         width:90vw;
     }
-    .topical-main, .topical-main {
+    .main {
         font-size: 1em;
         float: none; 
         width: 100%;
     }
-    .reflection-header h1 {
+    .header h1 {
         font-size:1.5em;
     }
     .article-div picture {
